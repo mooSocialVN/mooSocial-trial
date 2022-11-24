@@ -23,6 +23,7 @@ Step 2: Run with docker
 
 ### Install mooSocial Trial
 After Run mooSocial Trial, Please go to http://localhost to install mooSocial
+
 Use this information to connect mysql:
 
 Database Host: `your ip` (Ex: 192.168.1.60)
