@@ -1,0 +1,352 @@
+button{
+  &:hover, &:active, &:focus{
+    outline: none;
+  }
+}
+.btn{
+  &:hover, &:active, &:focus{
+    outline: none;
+  }
+  .btn-icon-spin{
+    display: inline-block;
+    padding: 0;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  &.btn-cs{
+    padding: 0 5px;
+    .btn-cs-main{
+      display: flex;
+      align-items: center;
+      min-height: 32px;
+
+      .btn-icon{
+        line-height: 1;
+        font-style: normal;
+        font-size: 22px;
+        height: 22px;
+        width: 22px;
+        min-width: 22px;
+        overflow: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        img{
+          width: 100%;
+          height: 100%;
+          display: block;
+        }
+      }
+      .btn-text{
+        font-size: 14px;
+        white-space: normal;
+      }
+
+      .btn-icon + .btn-text{
+        margin-left: 3px;
+        [dir="rtl"] & {
+          margin-left: 0;
+          margin-right: 3px;
+        }
+      }
+
+      .btn-text + .btn-icon{
+        margin-left: 3px;
+        [dir="rtl"] & {
+          margin-left: 0;
+          margin-right: 3px;
+        }
+      }
+
+      .btn-count{
+        //font-size: 22px;
+        //line-height: 22px;
+      }
+      .btn-count + .btn-text{
+        margin-left: 5px;
+      }
+    }
+    &.btn-xs{
+      .btn-cs-main{
+        min-height: 22px;
+
+        .btn-icon{
+          font-size: 16px;
+          height: 16px;
+          width: 16px;
+          min-width: 16px;
+        }
+        .btn-text{
+          font-size: 12px;
+        }
+        .btn-count{
+          font-size: 14px;
+          line-height: 14px;
+        }
+      }
+    }
+    &.btn-sm{
+
+      .btn-cs-main{
+        min-height: 30px;
+
+        .btn-icon{
+          font-size: 18px;
+          height: 18px;
+          width: 18px;
+          min-width: 18px;
+        }
+        .btn-text{
+          font-size: 13px;
+        }
+        .btn-count{
+          font-size: 15px;
+          line-height: 15px;
+        }
+      }
+    }
+    &.btn-lg{
+      padding: 0 10px;
+      .btn-cs-main{
+        min-height: 46px;
+
+        .btn-icon{
+          font-size: 26px;
+          height: 26px;
+          width: 26px;
+          min-width: 26px;
+        }
+        .btn-text{
+          font-size: 18px;
+        }
+        .btn-count{
+          font-size: 22px;
+          line-height: 22px;
+        }
+      }
+    }
+  }
+  &.btn-preline{
+    .btn-cs-main{
+      .btn-text{
+        white-space: pre-line;
+      }
+    }
+  }
+  &.btn-cs-img{
+    padding: 0;
+    .btn-icon{
+      display: block;
+      height: 100%;
+    }
+    &.btn-xs{
+      .btn-icon{
+        height: 22px;
+      }
+    }
+    &.btn-sm{
+      .btn-icon{
+        height: 30px;
+      }
+    }
+    &.btn-lg{
+      .btn-icon{
+        height: 46px;
+      }
+    }
+  }
+}
+.btn-header_icon{
+  padding: 3px;
+  color: #212121;
+  &:hover, &:active, &:focus{
+    color: #212121;
+  }
+  &.box-add {
+    color: #00b901;
+  }
+  &.btn-active{
+    //color: #00b901;
+  }
+  .btn-icon{
+    height: 28px;
+    width: 28px;
+    font-size: 28px;
+    overflow: hidden;
+  }
+  &.btn-xs{
+    padding: 1px;
+    .btn-icon{
+      height: 20px;
+      width: 20px;
+      font-size: 20px;
+    }
+  }
+  &.btn-sm{
+    .btn-icon{
+      height: 24px;
+      width: 24px;
+      font-size: 24px;
+    }
+  }
+  &.btn-lg{
+    padding: 6px;
+    .btn-icon{
+      height: 36px;
+      width: 36px;
+      font-size: 36px;
+    }
+  }
+}
+@media (max-width: 991px) {
+  /*.btn{
+    &.btn-cs{
+      padding: 0 6px;
+      .btn-cs-main{
+        display: flex;
+        align-items: center;
+        height: 32px;
+
+        .btn-icon{
+          line-height: 1;
+          font-style: normal;
+          font-size: 22px;
+
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+        .btn-text{
+          font-size: 14px;
+        }
+      }
+    }
+  }*/
+}
+
+.btn-cookies{
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.btn-post_feed{
+  color: #fff;
+  background-color: #00477b;
+  border-color: #00477b;
+  &:hover, &:active, &:focus{
+    color: #fff;
+  }
+}
+.btn-submit_comment {
+  color: #fff;
+  background-color: #00477b;
+  border-color: #00477b;
+  &:hover, &:active, &:focus{
+    color: #fff;
+  }
+}
+.btn-submit_reply{
+  color: #fff;
+  background-color: #00477b;
+  border-color: #00477b;
+  &:hover, &:active, &:focus{
+    color: #fff;
+  }
+}
+.btn-cancel_edit{
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  &:hover, &:active, &:focus{
+    color: #333;
+  }
+}
+.btn-submit_edit{
+  color: #fff;
+  background-color: #00477b;
+  border-color: #00477b;
+  &:hover, &:active, &:focus{
+    color: #fff;
+  }
+}
+.btn-header_title{
+  color: #fff;
+  background-color: #00b901;
+  border-color: #00b901;
+  &:hover, &:active, &:focus{
+    color: #ffffff;
+  }
+}
+.btn-header_toolbar{
+  color: #00b901;
+  background-color: #ffffff;
+  border-color: #00b901;
+  &:hover, &:active, &:focus{
+    background-color: #00b901;
+    color: #ffffff;
+  }
+}
+
+.btn-modal_close{
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  &:hover, &:active, &:focus{
+    color: #333;
+  }
+}
+.btn-modal_save{
+  color: #fff;
+  background-color: #00477b;
+  border-color: #00477b;
+  &:hover, &:active, &:focus{
+    color: #fff;
+  }
+}
+.btn-modal_ok{
+  color: #fff;
+  background-color: #00b901;
+  border-color: #00b901;
+  &:hover, &:active, &:focus{
+    color: #ffffff;
+  }
+}
+.btn-modal_delete{
+  color: #ffffff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+  &:hover, &:active, &:focus{
+    color: #ffffff;
+  }
+}
+.btn-user_tip{
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  &:hover, &:active, &:focus{
+    color: #333;
+  }
+}
+
+.btn-search_close{
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  &:hover, &:active, &:focus{
+    color: #333;
+  }
+}
+.btn-search_submit{
+  color: #fff;
+  background-color: #00477b;
+  border-color: #00477b;
+  &:hover, &:active, &:focus{
+    color: #fff;
+  }
+}
+.btn-profile{
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  &:hover, &:active, &:focus{
+    color: #333;
+  }
+}

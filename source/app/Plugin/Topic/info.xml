@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+                                <name>Topic</name>
+                                <key>Topic</key>
+                                <version>1</version>
+                                <description>Topic plugin</description>
+                                <author>mooSocial</author>
+                                <website>https://www.moosocial.com/</website>
+                                <menu>mooSocial</menu>
+                                <url/>
+                                <icon_class/>
+                                <bootstrap/>
+                                <routes/>
+                            <settings><setting><label>Item per pages</label><name>topic_item_per_pages</name><description></description><type>text</type><values>10</values></setting><setting><label>Enable Topic Plugin</label><name>topic_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Enable Topic Hashtag</label><name>topic_hashtag_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting></settings></info>

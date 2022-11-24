@@ -1,0 +1,235 @@
+.emoji-toggle{
+
+}
+.emoji-toggle-face{
+    cursor: pointer;
+    .emoji-toggle-icon{
+        color: #aaa;
+        font-size: 22px;
+        width: 22px;
+        height: 22px;
+        overflow: hidden;
+        display: block;
+    }
+}
+.emoji-toggle-popup{
+    position: relative;
+    display: none;
+}
+.emoji-toggle-popup.show{
+    display: block;
+}
+.emoji-toggle-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0);
+    z-index: 2000;
+}
+.emoji-toggle-main{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 198px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    z-index: 2100;
+    padding: 10px;
+    overflow: hidden;
+    max-height: 300px;
+    max-width: 212px;
+    [dir="rtl"] & {
+        right: inherit;
+        left: 0;
+    }
+}
+.emoji-toggle-list{
+    padding: 0;
+    margin: 0;
+}
+.emoji-toggle-list li{
+    display: inline-block;
+    padding: 3px;
+}
+
+.iconos{
+    background: url(../img/emojis-short.png);
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+    color: transparent;
+    font-family: 'Apple Color Emoji', 'Segoe UI Emoji', NotoColorEmoji, 'Segoe UI Symbol', 'Android Emoji', EmojiSymbols;
+    text-shadow: none;
+    font-weight: normal;
+    vertical-align:bottom;
+    background-size: 352px 110px;
+}
+#a1{background-position:-1px -2px}
+#a2{background-position:-68px -90px}
+#a3{background-position:-46px -1px}
+#a4{background-position:-90px -2px}
+#a5{background-position:-222px -68px}
+#a6{background-position:-112px -2px}
+#a7{background-position:-134px -1px}
+#a8{background-position:-156px -2px}
+#a9{background-position:-310px -68px}
+#a10{background-position:-289px -67px}
+#a11{background-position:-333px -68px}
+#a12{background-position:-266px -71px}
+#a13{background-position:-201px -70px}
+#a14{background-position:-156px -70px}
+#a15{background-position:-310px -2px}
+#a16{background-position:-333px -90px}
+#a17{background-position:-156px -91px}
+#a18{background-position:-2px -24px}
+#a19{background-position:-24px -24px}
+#a20{background-position:-46px -24px}
+#a21{background-position:-288px -91px}
+#a22{background-position:-244px -93px}
+#a23{background-position:-112px -24px}
+#a24{background-position:-134px -25px}
+#a25{background-position:-90px -90px}
+#a26{background-position:-332px -3px}
+#a27{background-position:-244px -3px}
+#a28{background-position:-112px -47px}
+#a29{background-position:-244px -24px}
+#a30{background-position:-68px -47px}
+#a31{background-position:-266px -24px}
+#a32{background-position:-134px -90px}
+#a33{background-position:-310px -25px}
+#a34{background-position:-113px -89px}
+#a35{background-position:-2px -46px}
+#a36{background-position:-24px -2px}
+#a37{background-position:-46px -46px}
+#a38{background-position:-69px -2px}
+#a39{background-position:-90px -47px}
+#a40{background-position:-178px -2px}
+#a41{background-position:-134px -46px}
+#a42{background-position:-156px -46px}
+#a43{background-position:-178px -47px}
+#a44{background-position:-221px -3px}
+#a45{background-position:-289px -2px}
+#a46{background-position:-134px -68px}
+#a47{background-position:-266px -47px}
+#a48{background-position:-288px -45px}
+#a49{background-position:-311px -46px}
+#a50{background-position:-333px -46px}
+#a51{background-position:-23px -89px}
+#a52{background-position:-2px -68px}
+#a53{background-position:-24px -68px}
+#a54{background-position:-45px -90px}
+#a55{background-position:-268px -89px}
+#a56{background-position:-200px -45px}
+#a57{background-position:-112px -68px}
+#a58{background-position:-240px -120px}
+#a59{background-position:-280px -120px}
+#a60{background-position:-320px -120px}
+#a61{background-position:-360px -120px}
+#a62{background-position:-400px -120px}
+#a63{background-position:-440px -120px}
+#a64{background-position:-480px -120px}
+#a65{background-position:-520px -120px}
+#a66{background-position:-560px -120px}
+#a67{background-position:-600px -120px}
+#a68{background-position:-640px -120px}
+#a69{background-position:0 -160px}
+#a70{background-position:-40px -160px}
+#a71{background-position:-80px -160px}
+#a72{background-position:-90px -68px}
+#a73{background-position:-160px -160px}
+#a74{background-position:-288px -45px}
+#a75{background-position:-240px -160px}
+#a76{background-position:-244px -69px}
+#a77{background-position:-222px -90px}
+#a78{background-position:-179px -70px}
+#a79{background-position:-400px -160px}
+#a80{background-position:-440px -160px}
+#a81{background-position:-480px -160px}
+.a1{background-position:-1px -2px}
+.a2{background-position:-68px -90px}
+.a3{background-position:-46px -1px}
+.a4{background-position:-90px -2px}
+.a5{background-position:-222px -68px}
+.a6{background-position:-112px -2px}
+.a7{background-position:-134px -1px}
+.a8{background-position:-156px -2px}
+.a9{background-position:-310px -68px}
+.a10{background-position:-289px -67px}
+.a11{background-position:-333px -68px}
+.a12{background-position:-266px -71px}
+.a13{background-position:-201px -70px}
+.a14{background-position:-156px -70px}
+.a15{background-position:-310px -2px}
+.a16{background-position:-333px -90px}
+.a17{background-position:-156px -91px}
+.a18{background-position:-2px -24px}
+.a19{background-position:-24px -24px}
+.a20{background-position:-46px -24px}
+.a21{background-position:-288px -91px}
+.a22{background-position:-244px -93px}
+.a23{background-position:-112px -24px}
+.a24{background-position:-134px -25px}
+.a25{background-position:-90px -90px}
+.a26{background-position:-332px -3px}
+.a27{background-position:-244px -3px}
+.a28{background-position:-112px -47px}
+.a29{background-position:-244px -24px}
+.a30{background-position:-68px -47px}
+.a31{background-position:-266px -24px}
+.a32{background-position:-134px -90px}
+.a33{background-position:-310px -25px}
+.a34{background-position:-113px -89px}
+.a35{background-position:-2px -46px}
+.a36{background-position:-24px -2px}
+.a37{background-position:-46px -46px}
+.a38{background-position:-69px -2px}
+.a39{background-position:-90px -47px}
+.a40{background-position:-178px -2px}
+.a41{background-position:-134px -46px}
+.a42{background-position:-156px -46px}
+.a43{background-position:-178px -47px}
+.a44{background-position:-221px -3px}
+.a45{background-position:-289px -2px}
+.a46{background-position:-134px -68px}
+.a47{background-position:-266px -47px}
+.a48{background-position:-288px -45px}
+.a49{background-position:-311px -46px}
+.a50{background-position:-333px -46px}
+.a51{background-position:-23px -89px}
+.a52{background-position:-2px -68px}
+.a53{background-position:-24px -68px}
+.a54{background-position:-45px -90px}
+.a55{background-position:-268px -89px}
+.a56{background-position:-200px -45px}
+.a57{background-position:-112px -68px}
+.a58{background-position:-240px -120px}
+.a59{background-position:-280px -120px}
+.a60{background-position:-320px -120px}
+.a61{background-position:-360px -120px}
+.a62{background-position:-400px -120px}
+.a63{background-position:-440px -120px}
+.a64{background-position:-480px -120px}
+.a65{background-position:-520px -120px}
+.a66{background-position:-560px -120px}
+.a67{background-position:-600px -120px}
+.a68{background-position:-640px -120px}
+.a69{background-position:0 -160px}
+.a70{background-position:-40px -160px}
+.a71{background-position:-80px -160px}
+.a72{background-position:-90px -68px}
+.a73{background-position:-160px -160px}
+.a74{background-position:-288px -45px}
+.a75{background-position:-240px -160px}
+.a76{background-position:-244px -69px}
+.a77{background-position:-222px -90px}
+.a78{background-position:-179px -70px}
+.a79{background-position:-400px -160px}
+.a80{background-position:-440px -160px}
+.a81{background-position:-480px -160px}

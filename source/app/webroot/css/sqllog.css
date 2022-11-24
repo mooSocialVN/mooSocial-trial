@@ -1,0 +1,42 @@
+.cake-sql-log {
+    background: #fff;
+    border:1px solid #ccc;
+    border-right:0;
+    clear: both;
+    color: #333;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.cake-sql-log th {
+    background: #f2f2f2;
+    border:1px solid #bbb;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    text-align: center;
+}
+.cake-sql-log th a {
+    background:#f2f2f2;
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+}
+.cake-sql-log th a:hover {
+    background: #ccc;
+    color: #333;
+    text-decoration: none;
+}
+.cake-sql-log tr td {
+    border-right: 1px solid #ccc;
+    padding: 5px;
+    vertical-align: top;
+}
+.cake-sql-log tr.altrow td {
+    background: #f4f4f4;
+}
+.cake-sql-log td.actions {
+    text-align: center;
+    white-space: nowrap;
+}
+.cake-sql-log td.actions a {
+    margin: 0px 6px;
+}

@@ -1,0 +1,94 @@
+.event_rsvp_choose{
+    .radio-control{
+        display: block;
+    }
+}
+.event-detail-thumb{
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid #dfdfdf;
+    border-bottom: none;
+    display: block;
+    .event_gradient_bg {
+        height: 51%;
+        width: 100%;
+        position: absolute;
+        background-color: transparent;
+        background-image: -webkit-linear-gradient(rgba(15,20,31,0) 0,rgba(15,20,31,.1) 25%,rgba(15,20,31,.6) 100%);
+        background-image: linear-gradient(rgba(15,20,31,0) 0,rgba(15,20,31,.1) 25%,rgba(15,20,31,.6) 100%);
+        bottom: 0;
+    }
+}
+
+.core-lists{
+    &.event-lists{
+        &.list-view{
+            .core-list-item{
+
+            }
+        }
+        &.grid-view{
+            > .core-list-item{
+                .core-item-info{
+
+                }
+            }
+        }
+    }
+
+    &.event-upcoming-lists,
+    &.event-popular-lists{
+        &.list-view {
+            .core-list-item {
+                .core-item-figure {
+                    width: 70px;
+                    min-width: 70px;
+                }
+                .core-item-info {
+                    [dir="rtl"] & {
+                        //margin-left: 0;
+                        //margin-right: 75px;
+                    }
+                }
+                .core-item-title{
+                    font-size: 14px;
+                }
+            }
+        }
+        &.grid-view {
+            > .core-list-item {
+                .core-item-info {
+                    padding: 5px;
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 413px) {
+    .core-lists{
+        &.event-lists{
+            &.list-view{
+                .core-list-item{
+                    .core-item-figure{
+                        .core-item-time{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            &.grid-view{
+                > .core-list-item{
+                    .core-item-info{
+
+                    }
+                }
+            }
+        }
+    }
+}

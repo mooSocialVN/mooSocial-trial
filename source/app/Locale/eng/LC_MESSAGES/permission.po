@@ -1,0 +1,108 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "Activity"
+msgstr "Activity"
+
+msgid "View feed from all members"
+msgstr "View feed from all members"
+
+msgid "User"
+msgstr "User"
+
+msgid "Select username"
+msgstr "Select username"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "View blog entry"
+msgstr "View blog entry"
+
+msgid "Create/Edit blog entry"
+msgstr "Create/Edit blog entry"
+
+msgid "Album"
+msgstr "Album"
+
+msgid "Create/Edit photo album"
+msgstr "Create/Edit photo album"
+
+msgid "View photo album"
+msgstr "View photo album"
+
+msgid "Event"
+msgstr "Event"
+
+msgid "Create/Edit event"
+msgstr "Create/Edit event"
+
+msgid "View event"
+msgstr "View event"
+
+msgid "Group"
+msgstr "Group"
+
+msgid "Create/Edit group"
+msgstr "Create/Edit group"
+
+msgid "View group"
+msgstr "View group"
+
+msgid "Photo"
+msgstr "Photo"
+
+msgid "Upload photos"
+msgstr "Upload photos"
+
+msgid "View photo"
+msgstr "View photo"
+
+msgid "Topic"
+msgstr "Topic"
+
+msgid "Create/Edit topic"
+msgstr "Create/Edit topic"
+
+msgid "View topic"
+msgstr "View topic"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Share video"
+msgstr "Share video"
+
+msgid "View video"
+msgstr "View video"
+
+msgid "Attachment"
+msgstr "Attachment"
+
+msgid "Upload attachment"
+msgstr "Upload attachment"
+
+msgid "Download attachment"
+msgstr "Download attachment"
+
+msgid "Allow sending message to non-friend"
+msgstr "Allow sending message to non-friend"
+
+msgid "If this option is checked, member who belong to this role can see all posts from all members at homefeed"
+msgstr ""
+
+msgid "Message"
+msgstr ""
+
+msgid "Can send private message"
+msgstr ""

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<name>Featured Members</name>
+	<key>featured_members</key>
+	<version>2.0</version>
+	<description>Display a list of featured members on side bar</description>
+	<author>mooSocial</author>
+	<website>http://www.moosocial.com</website>
+	<controller>home</controller>
+	<action>index</action>
+	<position>home_sidebar</position>
+</info>

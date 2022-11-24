@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+                                <name>Page</name>
+                                <key>Page</key>
+                                <version>1.0</version>
+                                <description>Page plugin</description>
+                                <author>mooSocial</author>
+                                <website>https://www.moosocial.com/</website>
+                                <menu>mooSocial</menu>
+                                <url/>
+                                <icon_class/>
+                                <bootstrap>0</bootstrap>
+                                <routes>0</routes>
+                            <settings><setting><label>Enable Page Plugin</label><name>page_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting></settings></info>

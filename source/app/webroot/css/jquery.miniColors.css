@@ -1,0 +1,79 @@
+INPUT.miniColors { margin-right: 4px; }
+.miniColors-selector { box-sizing: content-box;position: absolute; width: 175px; height: 150px; background: white; border: solid 1px #bababa; -moz-box-shadow: 0 0 6px rgba(0, 0, 0, .25) !important; -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, .25) !important; box-shadow: 0 0 6px rgba(0, 0, 0, .25) !important; -moz-border-radius: 5px !important; -webkit-border-radius: 5px !important; border-radius: 5px !important; padding: 5px; z-index: 999999; }
+.miniColors.opacity.miniColors-selector { width: 200px; }
+.miniColors-selector.black { background: black; border-color: black; }
+.miniColors.opacity .miniColors-colors { left: 30px; }
+.miniColors.opacity .miniColors-hues { left: 185px; }
+.miniColors-colorPicker { position: absolute; width: 11px; height: 11px; border: 1px solid black; -moz-border-radius: 11px !important; -webkit-border-radius: 11px !important; border-radius: 11px !important; }
+.miniColors-colorPicker-inner { position: absolute; top: 0; left: 0; width: 7px; height: 7px; border: 2px solid white; -moz-border-radius: 9px !important; -webkit-border-radius: 9px !important; border-radius: 9px !important; }
+.miniColors-huePicker, .miniColors-opacityPicker { position: absolute; left: -2px; width: 22px; height: 2px; border: 1px solid black; background: white; margin-top: -1px; border-radius: 2px !important; }
+.miniColors-trigger, .miniColors-triggerWrap { width: 22px; height: 22px; display: inline-block; }
+.miniColors-triggerWrap.disabled { filter: alpha(opacity=50) !important; opacity: .5 !important; }
+.miniColors-triggerWrap.disabled .miniColors-trigger { cursor: default; }
+.col-md-7 .position
+{
+	float: left;
+	width: 127px;
+	text-align: center;
+}
+
+.col-md-7 .px
+{
+	width:60px;
+	display: inline-block;
+}
+.input_text
+{
+	width:200px;
+}
+.col-md-7 .color-picker
+{
+	width:200px;
+	display: inline-block;
+}
+
+.col-md-7 .style
+{
+	float: left;
+	text-align: center;
+	padding: 10px;
+}
+
+.miniColors-triggerWrap { 
+	background: url(../img/miniColors/trigger.png) -22px 0 no-repeat;
+	
+}
+.miniColors-trigger {
+	vertical-align: middle;
+	outline: none;
+	background: url(../img/miniColors/trigger.png) 0 0 no-repeat;
+}
+
+.miniColors-opacity {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 20px;
+	height: 150px;
+	background: url(../img/miniColors/colors.png) -20px 0 no-repeat;
+	cursor: crosshair;
+}
+.miniColors-hues {
+	position: absolute;
+	top: 5px;
+	left: 160px;
+	width: 20px;
+	height: 150px;
+	background: url(../img/miniColors/colors.png) 0 0 no-repeat;
+	cursor: crosshair;
+}
+
+.miniColors-colors {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 150px;
+	height: 150px;
+	background: url(../img/miniColors/colors.png) -40px 0 no-repeat;
+	cursor: crosshair;
+}

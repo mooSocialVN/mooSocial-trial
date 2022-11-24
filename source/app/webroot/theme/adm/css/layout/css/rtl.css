@@ -1,0 +1,239 @@
+html, body{ direction:rtl; }
+.page-header.navbar .page-logo{
+    float:right;
+}
+.page-header.navbar .top-menu{
+    float:left;
+}
+ul.page-sidebar-menu li > a > * {
+    text-align: right;
+    display: inline-block;
+}
+ul.page-sidebar-menu li > a > .arrow {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+    float:right;
+}
+.portlet > .portlet-title > .caption,
+.tiles .tile{
+    float: right;
+}
+.note{
+    border-left:none;
+    border-right:5px solid #eee;
+}
+.nav-tabs>li{
+    float:right;
+}
+.portlet > .portlet-title > .caption > i{
+    float: right;
+    margin-right:0;
+    margin-left: 5px;
+}
+.page-footer .page-footer-tools,
+.page-footer .page-footer-inner{
+    float: left;
+}
+.page-footer .page-footer-inner{
+    margin-left:10px;
+    margin-right:0;
+}
+ul.list-group{
+    padding-right: 0;
+}
+.page-bar .page-breadcrumb{
+    float: right;
+}
+.page-bar .page-breadcrumb > li > i{
+    transform: rotate(180deg);
+}
+.search_inline_item {
+    display: inline-block;
+    margin-right: 0;
+    margin-left: 10px;
+}
+th{
+    text-align: right;
+}
+.nav.pull-right > li > .dropdown-menu, .nav > li > .dropdown-menu.pull-right{
+    left:0;
+    right:auto;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-menu:after{
+    left:10px;
+    right:auto;
+}
+.page-header.navbar .top-menu .navbar-nav > li.dropdown .dropdown-menu:before{
+    left:9px;
+    right:auto;
+}
+#wpbody-content #menu-settings-column{
+    float: right;
+    margin-left: 0;
+    margin-right: -300px;
+}
+#nav-menus-frame{
+    margin-left:0;
+    margin-right:300px;
+}
+#menu-management-liquid{
+    float:right;
+}
+.js .accordion-section-title:after{
+    left: 10px;
+    right: auto;
+}
+#wpbody .open-label,
+.menu-settings dt,
+.list-controls,
+.nav-menus-php .howto span{
+    float: right;
+}
+.nav-menus-php .major-publishing-actions .publishing-action,
+.add-to-menu {
+    float: left;
+}
+.menu-settings dd{
+    margin-left: 0;
+    margin-right: 150px;
+}
+.item-controls{
+    left: 36px;
+    right: auto;
+}
+.nav-menus-php .item-edit{
+    left: -25px;
+    right: auto;
+}
+#nav-menu-footer{
+    margin-left: 0;
+    margin-right: -300px;
+}
+.nav-menus-php .meta-sep, .nav-menus-php .submitcancel, .nav-menus-php .submitdelete,
+div.menu-item-settings label > span{
+    float: right;
+}
+div.menu-item-settings label > div{
+    margin-left: 0;
+    margin-right:175px;
+}
+table.table-bordered th:last-child, table.table-bordered td:last-child{
+    border-width: 1px;
+}
+.layout-action-section > .pull-left{
+    float:right!important;
+}
+.layout-action-section .pull-right{
+    float:left!important;
+}
+.dd-handle > .edit-block{
+    left: 28px;
+    right:auto;
+}
+.dd-handle > i.delete-element{
+    left:6px;
+    right:auto;
+}
+.dd-handle > span{
+    right:6px;
+    left:47px;
+}
+.btn-group>.btn, .btn-group-vertical>.btn{
+    float: right;
+}
+.show-grid.middle-section #moo-west{
+    border-left: none;
+    border-right: 1px solid rgba(86, 61, 124, 0.2)!important;
+}
+.show-grid.middle-section #moo-east{
+    border-right:none;
+    border-left: 1px solid rgba(86, 61, 124, 0.2)!important;
+}
+.portlet.box > .portlet-title > .actions{
+    float:left;
+}
+.modal .modal-header .close{
+    float:left;
+}
+.page-sidebar .page-sidebar-menu .sub-menu li > a, 
+.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu li > a{
+    padding:6px 43px 6px 15px;
+}
+.page-sidebar .page-sidebar-menu .sub-menu li > .sub-menu > li > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu li > .sub-menu > li > a{
+    padding-left: 0;
+    padding-right: 60px;
+}
+div.dataTables_filter label{
+    float:left;
+}
+.input-icon > .form-control{
+    padding-left: 0;
+    padding-right: 33px;
+}
+.layout-action-section #moo-menu-editing{
+    right: 0;
+    left: auto;
+    text-align: right;
+}
+.dropdown-menu.dropdown-checkboxes{
+    left: 0;
+    right: auto;
+    text-align: right;
+}
+.list-group-item>.badge{
+    float:left;
+}
+.pull-right{
+    float:left!important;
+}
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    margin-right: 0 !important;
+    right: 0;
+}
+.link_menu ul.sub-menu li a {
+    text-align: right;
+}
+.form-group > .tips {
+    margin-left: 0 !important;
+    margin-right: 165px;
+}
+.checkbox-inline {
+    padding-left: 0 !important;
+    padding-right: 20px !important;
+    padding-top: 0 !important;
+}
+.checkbox-inline > input {
+    left: auto !important;
+    right: 15px !important;
+    top: 0;
+}
+.checkbox-inline > .checker {
+    left: auto;
+    margin-top: 0 !important;
+    right: 10px;
+    top: 0 !important;
+}
+@media (min-width: 992px){
+    .page-sidebar{		
+        float: right;
+        margin-right:0;
+        margin-left: -100%;
+    }
+    .page-content-wrapper .page-content{
+        margin-left:0;
+        margin-right: 235px;
+    }
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: right;
+    }
+    .col-md-offset-3{
+        margin-left:0;
+        margin-right: 25%;
+    }
+}
+@media (min-width: 768px){
+    .form-horizontal .control-label{
+        text-align: left;
+    }
+}

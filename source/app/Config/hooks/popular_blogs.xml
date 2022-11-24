@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<name>Popular Blogs</name>
+	<key>popular_blogs</key>
+	<version>2.0</version>
+	<description>Display a list of popular blog entries on side bar</description>
+	<author>mooSocial</author>
+	<website>http://www.moosocial.com</website>
+	<controller>blogs</controller>
+	<action>index</action>
+	<position>blogs_sidebar</position>
+	<settings>
+		<num_blogs>
+			<label>Number of entries</label>
+			<description>Enter the number of entries you want to display</description>
+			<type>text</type>
+			<value>5</value>
+		</num_blogs>
+	</settings>
+</info>

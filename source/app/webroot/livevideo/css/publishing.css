@@ -1,0 +1,158 @@
+.livevideo-badge-live{
+    display: inline-block;
+    font-size:14px;
+    background-color: #f00;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+}
+.live-video-weakconnection{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    display: block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: #777;
+    border-radius: 10px;
+}
+.livevideo-tvbox{
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+.livevideo-monitor{
+    padding-bottom: 56.25%;
+    position: relative;
+    background-color: #000000;
+}
+.livevideo-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.livevideo-monitor-content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #ffffff;
+    flex-direction: column;
+}
+.livevideo-monitor-content > .msg-title{
+    font-size: xx-large;
+}
+
+.livevideo-monitor-content > .msg-button{
+    padding-top: 10px;
+}
+.livevideo-countlive{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    color: #ff0000;
+    font-size: 16px;
+    z-index: 9999;
+}
+
+.btn-livevideo{
+    background-color:#FF4E58;
+    color: #ffffff;
+}
+.btn-livevideo:hover, .btn-livevideo:active, .btn-livevideo:focus{
+    background-color:#FF4E58;
+    color: #ffffff;
+}
+.livevideo-title-box{
+    display: flex;
+    vertical-align: middle;
+}
+.livevideo-title{
+    font-size: 18px;
+    font-weight: bold;
+    flex-grow:1;
+}
+.livevideo-comment-box{
+    border: 1px solid #ccc;
+}
+.livevideo-title-status{
+    margin-right: 5px;
+}
+.livevideo-hide-comment{
+    display: none;
+}
+.livevideo-text-debug{
+    color: #777777;
+    font-size: 11px;
+}
+.livevideo-option-head{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.livevideo-option-title{
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.livevideo-source{
+    padding-left: 5px;
+}
+.livevideo-comment-scroll{
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.livevideo-comment-scroll{
+    scrollbar-width: thin;
+    scrollbar-color: #ccc rgba(0,0,0,0);
+}
+.livevideo-comment-scroll::-webkit-scrollbar {
+    width: 3px;
+}
+.livevideo-comment-scroll::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0);
+}
+.livevideo-comment-scroll::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 20px;
+    border: 1px solid rgba(0,0,0,0);
+}
+.livevideo-source .form-check-label{
+    margin-left: 3px;
+}
+.livevideo-length{
+    color: #FF4E58;
+}
+
+.livevideo-comment-box {
+    padding: 8px;
+}
+
+#livevideoTitle.box_header{
+    margin-bottom: 15px;
+}

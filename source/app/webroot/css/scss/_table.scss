@@ -1,0 +1,114 @@
+.table-div{
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    float: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  padding-bottom: 1px;
+  .thead-div{
+
+  }
+  .tbody-div{
+    .tr-div{
+      &:hover{
+        background-color: #f9f9f9;
+        .th-div, .td-div{
+
+        }
+      }
+    }
+  }
+  .th-div{
+    font-weight: bold;
+  }
+  .tr-div{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    .th-div, .td-div{
+      display: flex;
+      align-items: center;
+    }
+    .tgr-div{
+      padding: 10px 5px;
+      width: 100%;
+    }
+  }
+  &.table-div-head{
+    .thead-div{
+      .tr-div{
+        border-bottom: 1px solid #e0e0e0;
+        .th-div, .td-div{
+
+        }
+      }
+    }
+  }
+  &.table-div-head-bg{
+    .thead-div{
+      .tr-div{
+        background-color: #f9f9f9;
+        border-bottom: 1px solid #e0e0e0;
+        .th-div, .td-div{
+
+        }
+      }
+    }
+  }
+  &.table-div-bordered{
+    .tr-div{
+      border-bottom: 1px solid #e0e0e0;
+      border-top: 1px solid #e0e0e0;
+      border-right: 1px solid #e0e0e0;
+      //border-left: 1px solid #e0e0e0;
+      margin-bottom: -1px;
+      .th-div, .td-div{
+        border-left: 1px solid #e0e0e0;
+        &:first-child{
+
+        }
+        &:last-child{
+        }
+      }
+    }
+  }
+  &.table-div-striped{
+    .tr-div{
+      .th-div, .td-div{
+
+      }
+    }
+    .tbody-div{
+      .tr-div{
+        &:nth-child(2n+1){
+          background-color: #f9f9f9;
+          .th-div, .td-div{
+
+          }
+        }
+        .th-div, .td-div{
+          //border-bottom: 1px solid #e0e0e0;
+        }
+      }
+    }
+  }
+  &.table-div-condensed{
+    .thead-div{
+      .tr-div{
+        border-bottom: 1px solid #e0e0e0;
+        .th-div, .td-div{
+
+        }
+      }
+    }
+    .tbody-div{
+      .tr-div{
+        border-bottom: 1px solid #e0e0e0;
+        .th-div, .td-div{
+
+        }
+      }
+    }
+  }
+}
+

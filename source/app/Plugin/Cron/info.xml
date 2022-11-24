@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Cron</name>
+    <key>Cron</key>
+    <version>1</version>
+    <description>Cron plugin</description>
+    <author>mooSocial</author>
+    <website>https://www.moosocial.com/</website>
+    <menu>mooSocial</menu>
+    <url/>
+    <icon_class/>
+    <bootstrap>0</bootstrap>
+    <routes>0</routes>
+<settings><setting><label>Trigger Access Key</label><name>cron_key</name><description>Used to prevent unauthorized running of the task scheduler.</description><type>text</type><values>3FSE@</values></setting><setting><label>Trigger Interval</label><name>cron_interval</name><description>The minimum time between running tasks, in seconds.</description><type>text</type><values>60</values></setting><setting><label>Concurrent Processes</label><name>cron_processes</name><description>The maximum number of concurrent processes running tasks that are allowed.</description><type>text</type><values>2</values></setting><setting><label>Tasks Run per Request</label><name>cron_count</name><description>The maximum number of tasks that are run during each request. If a task is determined to have done nothing, it may not count towards this number.</description><type>text</type><values>1</values></setting><setting><label>Time per Request</label><name>cron_time</name><description>The maximum time allowed per request. This number will be automatically scaled if ini_get() can read max_execution_time from php.ini.</description><type>text</type><values>120</values></setting><setting><label>Process Timeout</label><name>cron_timeout</name><description>The maximum time before a task is considered to have died. The task will then be reset and freed to execute again.</description><type>text</type><values>900</values></setting><setting><label>Concurrent Jobs</label><name>cron_jobs</name><description>The maximum number of concurrently running jobs. This setting is limited by "Concurrent Processes"</description><type>text</type><values>3</values></setting><setting><label>Javascript Enable</label><name>cron_javascript</name><description>Cron job auto call when user go to site</description><type>checkbox</type><values><value><name>Enable</name><value>1</value><select>0</select></value></values></setting></settings></info>

@@ -1,0 +1,206 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "_EMAIL_HEADER_TITLE_"
+msgstr "Header (Non-members)"
+
+msgid "_EMAIL_HEADER_DESCRIPTION_"
+msgstr "This can be added to other emails using the [header] placeholder."
+
+msgid "_EMAIL_FOOTER_TITLE_"
+msgstr "Footer (Non-members)"
+
+msgid "_EMAIL_FOOTER_DESCRIPTION_"
+msgstr "This can be added to other emails using the [footer] placeholder."
+
+msgid "_EMAIL_HEADER_MEMBER_TITLE_"
+msgstr "Header (Members)"
+
+msgid "_EMAIL_HEADER_MEMBER_DESCRIPTION_"
+msgstr "This can be added to other emails using the [header] placeholder."
+
+msgid "_EMAIL_FOOTER_MEMBER_TITLE_"
+msgstr "Footer (Members)"
+
+msgid "_EMAIL_FOOTER_MEMBER_DESCRIPTION_"
+msgstr "This can be added to other emails using the [footer] placeholder."
+
+msgid "_EMAIL_MAIL_CONTACT_TITLE_"
+msgstr "Contact Form Email"
+
+msgid "_EMAIL_MAIL_CONTACT_DESCRIPTION_"
+msgstr "This email is sent to the site email when a member sends a message using the contact page."
+
+msgid "_EMAIL_FRIEND_REQUEST_TITLE_"
+msgstr "Friend Request"
+
+msgid "_EMAIL_FRIEND_REQUEST_DESCRIPTION_"
+msgstr "This email is sent to the user when other user send request add friend."
+
+msgid "_EMAIL_SITE_INVITE_TITLE_"
+msgstr "Invitation"
+
+msgid "_EMAIL_SITE_INVITE_DESCRIPTION_"
+msgstr "This is the email that gets sent when members invite their friends."
+
+msgid "_EMAIL_BULKMAIL_TITLE_"
+msgstr "Bulkmail"
+
+msgid "_EMAIL_BULKMAIL_DESCRIPTION_"
+msgstr "This is the email admin sent to user using bulkmail."
+
+msgid "_EMAIL_WELCOME_USER_TITLE_"
+msgstr "Welcome"
+
+msgid "_EMAIL_WELCOME_USER_DESCRIPTION_"
+msgstr "This is the email that gets sent when a member signs up."
+
+msgid "_EMAIL_WELCOME_USER_CONFIRM_TITLE_"
+msgstr "Welcome confirm"
+
+msgid "_EMAIL_WELCOME_USER_CONFIRM_DESCRIPTION_"
+msgstr "This is the email that gets sent when a member signs up with confirm link."
+
+msgid "_EMAIL_NEW_REGISTRATION_TITLE_"
+msgstr "New Registration"
+
+msgid "_EMAIL_NEW_REGISTRATION_DESCRIPTION_"
+msgstr "This is the email that gets sent to admin when a member signs up."
+
+msgid "_EMAIL_RESET_PASSWORD_TITLE_"
+msgstr "Forgot Password"
+
+msgid "_EMAIL_RESET_PASSWORD_DESCRIPTION_"
+msgstr "This is the email sent when user reset password."
+
+msgid "_EMAIL_ADMIN_CHANGE_PASSWORD_TITLE_"
+msgstr "Admin change password"
+
+msgid "_EMAIL_ADMIN_CHANGE_PASSWORD_DESCRIPTION_"
+msgstr "This is the email sent when admin change password a user."
+
+msgid "_EMAIL_NOTIFICATIONS_SUMMARY_TITLE_"
+msgstr "Notifications Summary"
+
+msgid "_EMAIL_NOTIFICATIONS_SUMMARY_DESCRIPTION_"
+msgstr "This is the email using for Notifications Summary."
+
+msgid "_EMAIL_SHARED_ITEM_TITLE_"
+msgstr "Shared Item"
+
+msgid "_EMAIL_SHARED_ITEM_DESCRIPTION_"
+msgstr "This is the email using for Shared Item"
+
+msgid "_EMAIL_PRIVATE_MESSAGE_TITLE_"
+msgstr "Send Private Message"
+
+msgid "_EMAIL_PRIVATE_MESSAGE_DESCRIPTION_"
+msgstr "This is the email sent where user send message"
+
+msgid "_EMAIL_EVENT_INVITE_NONE_MEMBER_TITLE_"
+msgstr "Event invite for non member"
+
+msgid "_EMAIL_EVENT_INVITE_NONE_MEMBER_DESCRIPTION_"
+msgstr "This is mail invite for non member."
+
+msgid "_EMAIL_GROUP_INVITE_NONE_MEMBER_TITLE_"
+msgstr "Group invite for non member"
+
+msgid "_EMAIL_GROUP_INVITE_NONE_MEMBER_DESCRIPTION_"
+msgstr "This is mail invite for non member."
+
+msgid "_EMAIL_SUBSCRIPTION_ACTIVATED_TITLE_"
+msgstr "Subscription active"
+
+msgid "_EMAIL_SUBSCRIPTION_ACTIVATED_DESCRIPTION_"
+msgstr "This is mail subscription active for member."
+
+msgid "_EMAIL_SUBSCRIPTION_PENDING_TITLE_"
+msgstr "Subscription pending"
+
+msgid "_EMAIL_SUBSCRIPTION_PENDING_DESCRIPTION_"
+msgstr "This is mail subscription pending for member."
+
+msgid "_EMAIL_SUBSCRIPTION_EXPIRE_TITLE_"
+msgstr "Subscription expire"
+
+msgid "_EMAIL_SUBSCRIPTION_EXPIRE_DESCRIPTION_"
+msgstr "This is mail subscription expire for member."
+
+msgid "_EMAIL_SUBSCRIPTION_REMINDER_TITLE_"
+msgstr "Subscription reminder"
+
+msgid "_EMAIL_SUBSCRIPTION_REMINDER_DESCRIPTION_"
+msgstr "This is mail subscription reminder for member."
+
+msgid "_EMAIL_SUBSCRIPTION_RECURRENCE_TITLE_"
+msgstr "Subscription recurrence"
+
+msgid "_EMAIL_SUBSCRIPTION_RECURRENCE_DESCRIPTION_"
+msgstr "This is mail subscription recurrence for member."
+
+msgid "_EMAIL_SUBSCRIPTION_CANCEL_ADMIN_TITLE_"
+msgstr "Subscription recurrence cancel to admin"
+
+msgid "_EMAIL_SUBSCRIPTION_CANCEL_ADMIN_DESCRIPTION_"
+msgstr "This is mail subscription recurrence cancel for admin."
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_ADMIN_TITLE_"
+msgstr "Subscription refund to admin"
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_ADMIN_DESCRIPTION_"
+msgstr "This is mail subscription refund for admin."
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_DENY_TITLE_"
+msgstr "Subscription deny refund to member"
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_DENY_DESCRIPTION_"
+msgstr "This is mail subscription deny refund to member."
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_ACCEPT_TITLE_"
+msgstr "Subscription accept refund to member"
+
+msgid "_EMAIL_SUBSCRIPTION_REFUND_ACCEPT_DESCRIPTION_"
+msgstr "This is mail subscription accept refund to member."
+
+msgid "_EMAIL_SUBSCRIPTION_CANCEL_TITLE_"
+msgstr "Subscription cancel to member"
+
+msgid "_EMAIL_SUBSCRIPTION_CANCEL_DESCRIPTION_"
+msgstr "This is mail subscription cancel to member."
+
+msgid "_EMAIL_APPROVE_USER_TITLE_"
+msgstr "Approved user"
+
+msgid "_EMAIL_APPROVE_USER_DESCRIPTION_"
+msgstr "This is mail approve to member."
+
+msgid "_EMAIL_UNAPPROVE_USER_TITLE_"
+msgstr "Unapproved user"
+
+msgid "_EMAIL_UNAPPROVE_USER_DESCRIPTION_"
+msgstr "This is mail unapprove to member."
+
+msgid "_EMAIL_ACTIVE_USER_TITLE_"
+msgstr "Active user"
+
+msgid "_EMAIL_ACTIVE_USER_DESCRIPTION_"
+msgstr "This is mail active to member."
+
+msgid "_EMAIL_INACTIVE_USER_TITLE_"
+msgstr "Inactive user"
+
+msgid "_EMAIL_INACTIVE_USER_DESCRIPTION_"
+msgstr "This is mail inactive to member."

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Social Integration</name>
+    <key>SocialIntegration</key>
+    <version>2.2.0</version>
+    <description>Social Integration plugin</description>
+    <author>mooSocial</author>
+    <website>https://www.moosocial.com/</website>
+    <menu>mooSocial</menu>
+    <url/>
+    <icon_class/>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+</info>

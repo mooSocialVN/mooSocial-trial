@@ -1,0 +1,141 @@
+/*Page Background*/
+body:not(#page_guest_home-index) {
+	background:#000 !important;
+}
+
+
+/*Header Background*/
+body:not(#page_guest_home-index) .header-bg{
+	background: #f9f9f9 !important ;/*url()*/
+}
+
+
+/*Header Icons Color:*/
+@media (min-width: 992px){
+	body:not(#page_guest_home-index) .notify_content > a i{
+		color: #000 !important;
+	}
+}
+
+
+/*Search Bar Color:*/
+body:not(#page_guest_home-index) .global-search{
+	background-color:#000 !important;
+}
+
+
+/*Search Bar Icon & Text Color:*/
+body:not(#page_guest_home-index) .global-search{
+	color:#fff !important;
+}
+
+
+/*Navigation Background Color*/
+body:not(#page_guest_home-index) .sl-navbar{
+	background: #f1f1f1 !important;
+}
+
+/*Navigation Text Color:*/
+@media (min-width: 992px){
+	body:not(#page_guest_home-index) #main_menu li a i,
+	body:not(#page_guest_home-index) #main_menu li a{
+		color: #000 !important;
+	}
+}
+
+/*Navigation Active Background Color:*/
+@media (min-width: 992px){
+	body:not(#page_guest_home-index) #main_menu > li a.active, 
+	body:not(#page_guest_home-index) #main_menu > li:hover, 
+	body:not(#page_guest_home-index) #main_menu li span:hover, 
+	body:not(#page_guest_home-index) #main_menu li.current a, 
+	body:not(#page_guest_home-index) #main_menu li a:hover,
+	body:not(#page_guest_home-index) #main_menu li a:active{
+		background: #999 !important;
+	}
+}
+
+/*Navigation Active Text Color:*/
+@media (min-width: 992px){
+	body:not(#page_guest_home-index) #main_menu > li a.active, 
+	body:not(#page_guest_home-index) #main_menu > li:hover > a, 
+	body:not(#page_guest_home-index) #main_menu li span:hover, 
+	body:not(#page_guest_home-index) #main_menu li.current a, 
+	body:not(#page_guest_home-index) #main_menu li a:hover,
+	body:not(#page_guest_home-index) #main_menu li a:active{
+		color: #fff !important;
+	}
+}
+
+
+/*Dropdown Background Color:*/
+@media (min-width: 992px){
+	body:not(#page_guest_home-index) ul#main_menu li ul{
+		background: #f1f1f1 !important;
+	}
+}
+
+
+/*Dropdown Hover Background Color:*/
+@media (min-width: 992px){
+	body:not(#page_guest_home-index) #main_menu ul li a.active, 
+	body:not(#page_guest_home-index) #main_menu ul li:hover, 
+	body:not(#page_guest_home-index) #main_menu ul li span:hover, 
+	body:not(#page_guest_home-index) #main_menu ul li.current a, 
+	body:not(#page_guest_home-index) #main_menu ul li a:hover,
+	body:not(#page_guest_home-index) #main_menu ul li a:active{
+		background: #f00 !important;
+	}
+}
+
+
+/*Dropdown Text Color:*/
+@media (min-width: 992px){
+	body:not(#page_guest_home-index) #main_menu > li a.active, 
+	body:not(#page_guest_home-index) body:not(#page_guest_home-index) #main_menu > li:hover > a, 
+	body:not(#page_guest_home-index) #main_menu li span:hover, 
+	body:not(#page_guest_home-index) #main_menu li.current a, 
+	body:not(#page_guest_home-index) #main_menu li a:hover,
+	body:not(#page_guest_home-index) #main_menu li a:active{
+		color: #f1f1f1 !important;
+	}
+}
+
+
+/*Block Header Background:*/
+.box2 h3{
+	background: #999 !important;
+}
+
+/*Footer Text Color:*/
+body:not(#page_guest_home-index) div#footer * {
+    color: #000;
+}
+
+
+/*Footer Background:*/
+body:not(#page_guest_home-index) #footer{
+	background: #f1f1f1 !important;
+}
+
+
+/*Footer Text Link Color:*/
+body:not(#page_guest_home-index) #footer ul.navbar-nav > li > span, 
+body:not(#page_guest_home-index) #footer ul.navbar-nav > li > a{
+	color:#fff !important;
+}
+
+/*Mobile*/
+/*Bottom Bar Background:*/
+body:not(#page_guest_home-index) .mobile-footer{
+	background: #fafafa !important;
+}
+
+
+/*Bottom Bar Icons Color:*/
+@media (max-width: 991px){
+	body:not(#page_guest_home-index) .mobile-footer i,
+	body:not(#page_guest_home-index) .notify_content > a i{
+		color: #000 !important;
+	}
+}

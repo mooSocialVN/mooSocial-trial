@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+                                <name>Subscription</name>
+                                <key>Subscription</key>
+                                <version>1</version>
+                                <description>Subscription plugin</description>
+                                <author>mooSocial</author>
+                                <website>https://www.moosocial.com/</website>
+                                <menu>mooSocial</menu>
+                                <url/>
+                                <icon_class/>
+                                <bootstrap>0</bootstrap>
+                                <routes>0</routes>
+                            <settings><setting><label>Enable Subscription Packages</label><name>enable_subscription_packages</name><description>Enable Subscription Packages </description><type>checkbox</type><values><value><name></name><value>1</value><select>0</select></value></values></setting></settings></info>

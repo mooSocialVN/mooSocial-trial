@@ -1,0 +1,46 @@
+.core-lists{
+    &.blog-lists{
+        &.list-view{
+            .core-list-item{
+
+            }
+        }
+        &.grid-view{
+            > .core-list-item{
+                .core-item-info{
+
+                }
+            }
+        }
+    }
+
+    &.group-popular-lists,
+    &.group-featured-lists,
+    &.group-myjoined-lists{
+        &.list-view {
+            .core-list-item {
+                .core-item-figure {
+                    width: 50px;
+                    min-width: 50px;
+                }
+                .core-item-info {
+                    [dir="rtl"] & {
+                        //margin-left: 0;
+                        //margin-right: 55px;
+                    }
+                }
+                .core-item-title{
+                    font-size: 14px;
+                }
+            }
+        }
+        &.grid-view {
+            > .core-list-item {
+                .core-item-info {
+                    padding: 5px;
+                }
+            }
+        }
+    }
+
+}

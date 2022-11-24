@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+                                <name>Paypal Gateway</name>
+                                <key>PaypalGateway</key>
+                                <version>1</version>
+                                <description>PaymentGateway plugin</description>
+                                <author>mooSocial</author>
+                                <website>https://www.moosocial.com/</website>
+                                <menu>mooSocial</menu>
+                                <url/>
+                                <icon_class/>
+                                <bootstrap>0</bootstrap>
+                                <routes>0</routes>
+                            <settings><setting><label>Paypal Email</label><name>paypal_email</name><description></description><type>text</type><values>tuan_buyer@gmail.com</values></setting><setting><label>Paypal ipn log</label><name>paypal_ipn_log</name><description></description><type>checkbox</type><values><value><name></name><value>1</value><select>0</select></value></values></setting></settings></info>

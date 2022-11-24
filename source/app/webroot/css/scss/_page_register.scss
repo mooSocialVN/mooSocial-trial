@@ -1,0 +1,76 @@
+.registration-page{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f4f4f4;
+    max-width: 900px;
+    margin: auto;
+    .register-page-header{
+        //padding-bottom: 10px;
+        //border-bottom: 1px solid #eee;
+        //font-size: 26px;
+        //margin: 0 0 15px 0;
+    }
+    .register_main_form{
+        border-right: 1px solid #cccccc;
+        background-color: #ffffff;
+    }
+
+    .register_social_form{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .center-login-text{
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .center-login-social{
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .registration-page{
+
+        .register-page-header{
+
+        }
+        .register_main_form{
+
+        }
+
+        .register_social_form{
+            padding-right: 16px;
+            .center-login-text{
+
+            }
+            .center-login-social{
+
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .registration-page{
+
+        .register-page-header{
+
+        }
+        .register_main_form{
+            border-right: none;
+        }
+
+        .register_social_form{
+
+            .center-login-text{
+
+            }
+            .center-login-social{
+
+            }
+        }
+    }
+}

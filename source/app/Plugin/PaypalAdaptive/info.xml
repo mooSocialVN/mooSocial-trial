@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>Paypal Adaptive</name>
+    <key>PaypalAdaptive</key>
+    <version>1.0</version>
+    <description>Paypal Adaptive plugin</description>
+    <author>mooSocial</author>
+    <website>https://www.moosocial.com/</website>
+    <bootstrap>1</bootstrap>
+    <routes>1</routes>
+</info>

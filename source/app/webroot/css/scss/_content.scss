@@ -1,0 +1,105 @@
+h1, h2, h3, h4, h5, h6{
+    margin-top: 0;
+}
+p {
+    margin: 0 0 5px;
+}
+ul{
+    padding-left: 20px;
+    margin-bottom: 5px;
+    li{
+
+    }
+}
+.post_content{
+    > *:last-child{
+        margin-bottom: 0;
+    }
+}
+.post_body{
+    position:relative;
+    img {
+        max-width: 100%;
+        height:auto;
+    }
+    .extra_info{
+        font-size:12px;
+        //color:#999;
+        padding:5px 0;
+    }
+    blockquote {
+        margin: 10px 0;
+        padding: 10px 20px;
+        background: #eee;
+        border: 1px solid #cccccc;
+        font-family: monospace;
+    }
+    .post_header{
+        margin-bottom: 10px;
+    }
+    .post_content{
+
+    }
+    .post_tags{
+        .post_tags-title{
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+    }
+    .post_warp{
+        margin-bottom: 15px;
+    }
+}
+
+.post_attached_file{
+    .post_attached_head{
+        color: #000000;
+        font-size: 12px;
+        font-weight: 600;
+        padding: 10px 0;
+    }
+    .post_attached_list{
+        list-style: none;
+        .post_attached_warp{
+            margin-bottom: 15px;
+        }
+        .post-attached-image{
+            display: block;
+            padding-bottom: 100%;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .post_attached_download_list{
+        padding-left: 18px;
+        margin-bottom: 10px;
+        li{
+            margin-bottom: 5px;
+            font-size: 12px;
+            &:last-child{
+              margin-bottom: 0;
+            }
+            .attached-download-icon{
+                vertical-align: middle;
+            }
+            .attached-download-link{
+
+            }
+            .attached-download-date{
+              color: #888;
+            }
+        }
+    }
+}
+
+.extra_info{
+    color: #999999;
+}
+
+.post_content{
+
+}

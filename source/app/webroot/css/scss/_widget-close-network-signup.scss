@@ -1,0 +1,134 @@
+.user_register_holder{
+    margin-top:40px;
+}
+
+.signup_intro{
+    font-size: 64px;
+    line-height: 74px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    color: #3E3E3E;
+    span{
+        color: #5A9E0B;
+    }
+}
+
+.signup_more{
+    font-size: 20px;
+    color: #4a4a4a;
+}
+
+.close-network-signup{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #f4f4f4;
+    .register_main_form{
+        background: #fff;
+    }
+    .register_social_form{
+        display: flex;
+        align-items: center;
+        padding: 15px;
+
+        .center-login-text{
+            flex-grow: 0;
+            padding-right: 15px;
+            font-weight: bold;
+            font-size: 14px;
+            white-space: nowrap;
+            [dir="rtl"] & {
+                padding-left: 15px;
+                padding-right: 0;
+            }
+            > span{
+                display: block;
+                margin-bottom: 5px;
+            }
+        }
+        .center-login-social{
+            flex-grow: 1;
+        }
+        .social-group{
+            display: inline-block;
+            width: 48%;
+            float: left;
+            &:nth-child(2n+1){
+                margin-right: 4%;
+            }
+        }
+    }
+}
+
+.new_recent_signup{
+    margin-top: 30px;
+}
+
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media (min-width: 992px) {
+
+}
+@media (max-width: 991px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (max-width: 767px) {
+    .user_register_holder{
+        margin-top: 0;
+    }
+}
+@media (min-width: 568px) and (max-width: 767px) {
+
+}
+@media (max-width: 567px) {
+    .signup_intro {
+        font-size: 38px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+    .signup_more {
+        font-size: 16px;
+    }
+    .close-network-signup{
+        .register_social_form{
+            flex-wrap: wrap;
+            .center-login-text{
+                width: 100%;
+                padding: 0;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            .center-login-social{
+                width: 100%;
+            }
+            .social-group{
+                display: block;
+                width: 80%;
+                float: none;
+                margin-left: auto;
+                margin-right: auto;
+                &:nth-child(2n+1){
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 414px) and (max-width: 567px) {
+
+}
+@media (max-width: 413px) {
+
+}
+@media (max-width: 374px) {
+
+}

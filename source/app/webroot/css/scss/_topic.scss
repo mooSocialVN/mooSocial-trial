@@ -1,0 +1,39 @@
+.core-lists{
+    &.topic-lists{
+        &.list-view{
+            .core-list-item{
+
+            }
+        }
+        &.grid-view{
+            > .core-list-item{
+                .core-item-info{
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    &.topic-popular-lists {
+        &.list-view {
+            .core-list-item {
+                .core-item-figure {
+                    width: 50px;
+                    min-width: 50px;
+                }
+                .core-item-info {
+                    //margin-left: 55px;
+                }
+                .core-item-title{
+                    font-size: 14px;
+                }
+            }
+        }
+        &.grid-view {
+            > .core-list-item {
+                .core-item-info {
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}

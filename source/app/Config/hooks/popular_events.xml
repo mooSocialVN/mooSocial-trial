@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<name>Popular Events</name>
+	<key>popular_events</key>
+	<version>2.0</version>
+	<description>Display a list of popular events on side bar</description>
+	<author>mooSocial</author>
+	<website>http://www.moosocial.com</website>
+	<controller>events</controller>
+	<action>index</action>
+	<position>events_sidebar</position>
+	<settings>
+		<num_events>
+			<label>Number of events</label>
+			<description>Enter the number of events you want to display</description>
+			<type>text</type>
+			<value>5</value>
+		</num_events>
+	</settings>
+</info>

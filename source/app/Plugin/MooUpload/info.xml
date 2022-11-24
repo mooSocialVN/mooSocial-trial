@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+    <name>MooUpload</name>
+    <key>MooUpload</key>
+    <version>1</version>
+    <description>MooUpload plugin</description>
+    <author>mooSocial</author>
+    <website>https://www.moosocial.com/</website>
+    <menu>mooSocial</menu>
+    <url/>
+    <icon_class/>
+    <bootstrap>0</bootstrap>
+    <routes>0</routes>
+    <settings></settings>
+</info>

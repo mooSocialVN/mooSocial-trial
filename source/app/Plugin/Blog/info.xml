@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+                                <name>Blog</name>
+                                <key>Blog</key>
+                                <version>1</version>
+                                <description>Blog plugin</description>
+                                <author>mooSocial</author>
+                                <website>https://www.moosocial.com/</website>
+                                <menu>mooSocial</menu>
+                                <url/>
+                                <icon_class/>
+                                <bootstrap/>
+                                <routes/>
+                            <settings><setting><label>Enable Blog Plugin</label><name>blog_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting><setting><label>Item per pages</label><name>blog_item_per_pages</name><description>The number of blogs to display per page</description><type>text</type><values>101</values></setting><setting><label>Enable Blog Hashtag</label><name>blog_hashtag_enabled</name><description></description><type>radio</type><values><value><name>Disable</name><value>0</value><select>0</select></value><value><name>Enable</name><value>1</value><select>1</select></value></values></setting></settings></info>

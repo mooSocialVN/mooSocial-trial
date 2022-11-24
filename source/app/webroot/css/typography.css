@@ -1,0 +1,109 @@
+body.mce-content-body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.4;
+    margin: 1rem;
+}
+
+.mce-content-body:not([dir=rtl]).post_content blockquote {}
+.mce-content-body[dir=rtl].post_content blockquote {}
+
+.post_content{
+    word-break: break-word;
+}
+
+.post_content blockquote {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: #eee;
+    border-style: solid;
+    border-width: 1px;
+    border-left-width: 5px;
+    border-color: #cccccc;
+    font-family: monospace;
+}
+[dir=rtl] .post_content blockquote {
+    border-right-width: 5px;
+    border-left-width: 1px;
+}
+
+.post_content pre{
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 13px;
+    line-height: 16px;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.post_content table {
+    border-collapse: collapse;
+}
+.post_content table th,
+.post_content table td {
+    border: 1px solid #ccc;
+    padding: 0.4rem;
+}
+.post_content figure {
+    display: table;
+    margin: 1rem auto;
+}
+.post_content figure figcaption {
+    color: #999;
+    display: block;
+    margin-top: 0.25rem;
+    text-align: center;
+}
+.post_content hr {
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px 0 0 0;
+}
+.post_content code {
+    background-color: #e8e8e8;
+    border-radius: 3px;
+    padding: 0.1rem 0.2rem;
+}
+.post_content img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.post_content a{
+    color: #00477b;
+}
+
+.post_content img.responsive{
+    max-width: 100%;
+}
+
+.post_content .inline-image-wrapper{
+    margin-bottom: 5px;
+}
+.post_content .caption-wrapper .caption-text{
+    font-style: italic;
+}
+
+.post_content h1,
+.post_content h2,
+.post_content h3,
+.post_content h4,
+.post_content h5,
+.post_content h6{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.post_content p{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.post_content ul,
+.post_content ol{
+    padding-left: 20px;
+    margin-bottom: 5px;
+}

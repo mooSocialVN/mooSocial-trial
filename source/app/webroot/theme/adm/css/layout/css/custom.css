@@ -1,0 +1,263 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+.btn{
+    border-radius: 2px!important;
+    font-size: 12px;
+}
+.btn-gray{color:#247BBA;background:#e4e4e4;border:none;border-radius: 2px;}
+.btn-action{background-color: #D8601F;color: white;border-radius: 2px;}
+.btn-action:hover {
+  background-color: #FB7022;
+ color: #fff;
+}
+.btn-action:active {
+  background: #FB7022;
+  color: #fff;
+}
+.header-section{
+    background-color: #E8E8E8; 
+    color: #C6C6C6;
+    clear: both;
+}
+.header-section h1{
+    margin: 0;
+    line-height: 100px;
+    font-size: 30px;
+    text-align: center;
+}
+.layout-action-section > .col-md-6{
+    padding:0;
+}
+.show-grid.middle-section{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.show-grid.middle-section [class^="col-"]{
+    display: table-cell;
+    float: none;
+    vertical-align: top;
+}
+.dd-handle{
+    position: relative;
+}
+.dd-handle > span{
+    display: block;
+    float: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    height: 18px;
+    white-space: nowrap;
+    position: absolute;
+    left: 6px;
+    right: 47px;
+}
+.dd-handle.content_fixed > span{
+    right:6px;
+}
+.dd-handle > i.delete-element{
+    position: absolute;
+    right: 6px;
+}
+.dd-handle > .edit-block{
+    position: absolute;
+    right: 28px;
+}
+.footer-section{
+    background-color: #E8E8E8; 
+    color: #C6C6C6;
+    clear: both;
+}
+.main_contain_section h1,
+.footer-section h1{
+    margin:0;
+    line-height:100px;
+    font-size: 30px;
+    text-align: center;
+}
+.main_contain_section{
+    background-color: #E8E8E8; 
+    color: #C6C6C6;
+}
+.main-content-area{
+    padding: 5px 0;
+}
+.south-section{
+    overflow: hidden;
+}
+.noth-section{
+    overflow: hidden;
+}
+.system-setting .form-group input[type="file"],
+.system-setting div.radio,.system-setting div.checker{
+    padding-top: 7px;
+}
+.p_b_10{
+    padding-bottom: 10px;
+}
+.bg-gray{
+    background:#e4e4e4;
+}
+.bg-gray .tile-object > .number,
+.bg-gray .tile-object > .name{
+    color:#000!important;
+}
+.bg-gray a:hover{
+    text-decoration: none;
+}
+.tiles .tile .tile-body > i{
+    color: #ababab;
+}
+.tiles .tile.bg-gray:hover{
+    background-color: #d64635;
+    border-color: #d64635!important;
+}
+.bg-gray:hover .tile-object > .number,
+.bg-gray:hover .tile-object > .name,
+.tiles .tile.bg-gray:hover .tile-body > i{
+    color:#fff!important;
+}
+ul.list6{
+    list-style: none;
+}
+.form-group:after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.radio input[type=radio], .radio-inline input[type=radio], .checkbox input[type=checkbox], .checkbox-inline input[type=checkbox]{
+    margin-left:0px!important;
+    left:0;
+}
+#notifications_list{
+    width:100%;
+    overflow:auto;
+}
+.gradeX{
+    /*cursor: all-scroll;*/
+}
+.admin_topic_setting .form-horizontal .radio{
+    padding-top:0;
+}
+.modal-content{
+    border: 4px solid #C1C0C3;
+    border-radius: 4px!important;
+}
+.modal-header{
+    background: #F8F8F8;
+}
+.modal-body{
+    min-height:70px;
+}
+.modal-footer{
+    background: #F8F8F8;
+    text-align: center;
+}
+.radio-setting{
+    display:inline;
+    padding-top: 7px;
+    vertical-align: middle;
+    margin-left: 3px;
+}
+#notifications_list li{
+    padding: 5px 0;
+}
+.not-active{
+    cursor: default;
+}
+.not-active > i{
+}
+.intergration-setting .input.checkbox .checker{
+    padding-top: 10px;
+}
+#uniform-remove_logo{
+    padding-top: 8px;
+}
+#createForm.form-horizontal .control-label{
+    padding-top:0;
+}
+.checkbox > label, .form-horizontal .block_popup .checkbox > label
+{
+    padding-left: 20px;
+}
+.link_menu {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #333;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 3px;
+    box-shadow: 3px 3px 3px #cfcfcf;
+    color: #333;
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    width: 250px;
+    z-index: 10;
+}
+.link_menu ul.sub-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.link_menu ul.sub-menu li {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+.link_menu ul.sub-menu li a {
+    border-bottom: 1px solid #dfdfdf;
+    color: #000;
+    display: block;
+    margin: 0;
+    padding: 5px;
+}
+.tooltip.bottom .tooltip-arrow{
+    display: none;
+}
+.tiles .tile-title{
+    color:#000!important;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.checkbox-inline {
+  padding-left: 20px !important;
+  padding-top: 0 !important;
+}
+.checkbox-inline > input {
+  left: 15px !important;
+  top: 0;
+}
+.checkbox-inline > .checker {
+  left: 10px;
+  position: absolute !important;
+  top: 0;
+}
+.checkbox-inline > .help-block {
+  margin-bottom: 5px;
+  margin-top: 0;
+}

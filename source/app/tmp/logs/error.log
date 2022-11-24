@@ -1,0 +1,465 @@
+2017-12-19 03:43:30 Warning: Warning (2): fopen(E:\wamp\www\internal\moo-app-optimized\app\tmp\cache\minify/minify_common,feed,video,blog,event,group,photo,topic,button,subscription,main,custom,elastislide,fineuploader,pickadate,jquery.Jcrop,jquery.mp,tokeninput,qtip.css_3d5de8d17571ebc232447d38f9eb3fd3.gz) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: Invalid argument in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 100]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+fopen - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 100
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): fopen(E:\wamp\www\internal\moo-app-optimized\app\tmp\cache\minify/minify_common,feed,video,blog,event,group,photo,topic,button,subscription,main,custom,elastislide,fineuploader,pickadate,jquery.Jcrop,jquery.mp,tokeninput,qtip.css_3d5de8d17571ebc232447d38f9eb3fd3.gz) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: Invalid argument in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 100]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+fopen - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 100
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): fopen(E:\wamp\www\internal\moo-app-optimized\app\tmp\cache\minify/minify_common,feed,video,blog,event,group,photo,topic,button,subscription,main,custom,elastislide,fineuploader,pickadate,jquery.Jcrop,jquery.mp,tokeninput,qtip.css_3d5de8d17571ebc232447d38f9eb3fd3.gz) [<a href='http://php.net/function.fopen'>function.fopen</a>]: failed to open stream: Invalid argument in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 100]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+fopen - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 100
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): flock() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 101]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+flock - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 101
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): flock() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 101]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+flock - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 101
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): flock() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 101]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+flock - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 101
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): stream_get_contents() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 102]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+stream_get_contents - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 102
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): stream_get_contents() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 102]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+stream_get_contents - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 102
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): stream_get_contents() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 102]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+stream_get_contents - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 102
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): flock() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 103]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+flock - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 103
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): flock() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 103]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+flock - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 103
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): flock() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 103]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+flock - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 103
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): fclose() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 104]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+fclose - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 104
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): fclose() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 104]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+fclose - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 104
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Warning: Warning (2): fclose() expects parameter 1 to be resource, boolean given in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 104]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+fclose - [internal], line ??
+Minify_Cache_File::fetch() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 104
+Minify_Cache_File::store() - APP\Plugin\Minify\Vendor\minify\lib\Minify\Cache\File.php, line 37
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 294
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2022-02-17 04:53:51 Warning: Warning (2): Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in [C:\Tung\Job\Socialloft\test\app\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Minify::_combineMinify() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 284
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 499
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2022-02-17 04:53:51 Warning: Warning (2): Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in [C:\Tung\Job\Socialloft\test\app\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Minify::_combineMinify() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 284
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 499
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2022-02-17 04:53:54 Warning: Warning (2): Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in [C:\Tung\Job\Socialloft\test\app\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Minify::_combineMinify() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 284
+include_once - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 745
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 499
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2022-02-17 04:53:54 Warning: Warning (2): Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in [C:\Tung\Job\Socialloft\test\app\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Minify::_combineMinify() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 284
+include_once - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 745
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 499
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2022-02-17 05:00:24 Warning: Warning (2): Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in [C:\Tung\Job\Socialloft\test\app\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Minify::_combineMinify() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 284
+include_once - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 745
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 499
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2022-02-17 05:00:24 Warning: Warning (2): Use of undefined constant self - assumed 'self' (this will throw an Error in a future version of PHP) in [C:\Tung\Job\Socialloft\test\app\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Minify::_combineMinify() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 284
+include_once - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 745
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 499
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2022-02-17 07:16:37 Error: [MissingControllerException] Controller class ScAdminController could not be found.
+Exception Attributes: array (
+  'class' => 'ScAdminController',
+  'plugin' => NULL,
+)
+Request URL: /test/sc_admin
+Stack Trace:
+#0 C:\Tung\Job\Socialloft\test\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-02-17 07:16:37 Error: [MissingControllerException] Controller class ScAdminController could not be found.
+Exception Attributes: array (
+  'class' => 'ScAdminController',
+  'plugin' => NULL,
+)
+Request URL: /test/sc_admin
+Stack Trace:
+#0 C:\Tung\Job\Socialloft\test\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2022-02-17 07:42:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city_count' in 'field list'
+Request URL: /test/admin/countries/save_city
+Stack Trace:
+#0 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('UPDATE states S...', Array)
+#2 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('UPDATE states S...', Array, Array)
+#3 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('UPDATE states S...', Array)
+#4 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Model.php(3489): DboSource->query('UPDATE states S...', false)
+#5 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(280): Model->query('UPDATE states S...')
+#6 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(48): AppModel->query('UPDATE states S...')
+#7 C:\Tung\Job\Socialloft\test\app\Controller\CountriesController.php(227): AppModel->increaseCounter('52', 'city_count')
+#8 [internal function]: CountriesController->admin_save_city()
+#9 C:\Tung\Job\Socialloft\test\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#10 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#12 C:\Tung\Job\Socialloft\test\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2022-02-17 07:42:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city_count' in 'field list'
+Request URL: /test/admin/countries/save_city
+Stack Trace:
+#0 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('UPDATE states S...', Array)
+#2 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('UPDATE states S...', Array, Array)
+#3 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('UPDATE states S...', Array)
+#4 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Model.php(3489): DboSource->query('UPDATE states S...', false)
+#5 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(280): Model->query('UPDATE states S...')
+#6 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(48): AppModel->query('UPDATE states S...')
+#7 C:\Tung\Job\Socialloft\test\app\Controller\CountriesController.php(227): AppModel->increaseCounter('52', 'city_count')
+#8 [internal function]: CountriesController->admin_save_city()
+#9 C:\Tung\Job\Socialloft\test\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#10 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#12 C:\Tung\Job\Socialloft\test\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2022-02-17 07:42:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city_count' in 'field list'
+Request URL: /test/admin/countries/save_city
+Stack Trace:
+#0 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('UPDATE states S...', Array)
+#2 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('UPDATE states S...', Array, Array)
+#3 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('UPDATE states S...', Array)
+#4 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Model.php(3489): DboSource->query('UPDATE states S...', false)
+#5 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(280): Model->query('UPDATE states S...')
+#6 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(48): AppModel->query('UPDATE states S...')
+#7 C:\Tung\Job\Socialloft\test\app\Controller\CountriesController.php(227): AppModel->increaseCounter('52', 'city_count')
+#8 [internal function]: CountriesController->admin_save_city()
+#9 C:\Tung\Job\Socialloft\test\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#10 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#12 C:\Tung\Job\Socialloft\test\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2022-02-17 07:42:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city_count' in 'field list'
+Request URL: /test/admin/countries/save_city
+Stack Trace:
+#0 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('UPDATE states S...', Array)
+#2 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('UPDATE states S...', Array, Array)
+#3 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('UPDATE states S...', Array)
+#4 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Model.php(3489): DboSource->query('UPDATE states S...', false)
+#5 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(280): Model->query('UPDATE states S...')
+#6 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(48): AppModel->query('UPDATE states S...')
+#7 C:\Tung\Job\Socialloft\test\app\Controller\CountriesController.php(227): AppModel->increaseCounter('52', 'city_count')
+#8 [internal function]: CountriesController->admin_save_city()
+#9 C:\Tung\Job\Socialloft\test\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#10 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#12 C:\Tung\Job\Socialloft\test\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2022-02-17 07:43:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city_count' in 'field list'
+Request URL: /test/admin/countries/save_city
+Stack Trace:
+#0 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('UPDATE states S...', Array)
+#2 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('UPDATE states S...', Array, Array)
+#3 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('UPDATE states S...', Array)
+#4 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Model.php(3489): DboSource->query('UPDATE states S...', false)
+#5 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(280): Model->query('UPDATE states S...')
+#6 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(48): AppModel->query('UPDATE states S...')
+#7 C:\Tung\Job\Socialloft\test\app\Controller\CountriesController.php(227): AppModel->increaseCounter('52', 'city_count')
+#8 [internal function]: CountriesController->admin_save_city()
+#9 C:\Tung\Job\Socialloft\test\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#10 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#12 C:\Tung\Job\Socialloft\test\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2022-02-17 07:43:19 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'city_count' in 'field list'
+Request URL: /test/admin/countries/save_city
+Stack Trace:
+#0 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('UPDATE states S...', Array)
+#2 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(715): DboSource->execute('UPDATE states S...', Array, Array)
+#3 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Datasource\DboSource.php(641): DboSource->fetchAll('UPDATE states S...', Array)
+#4 C:\Tung\Job\Socialloft\test\lib\Cake\Model\Model.php(3489): DboSource->query('UPDATE states S...', false)
+#5 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(280): Model->query('UPDATE states S...')
+#6 C:\Tung\Job\Socialloft\test\app\Model\AppModel.php(48): AppModel->query('UPDATE states S...')
+#7 C:\Tung\Job\Socialloft\test\app\Controller\CountriesController.php(227): AppModel->increaseCounter('52', 'city_count')
+#8 [internal function]: CountriesController->admin_save_city()
+#9 C:\Tung\Job\Socialloft\test\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#10 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 C:\Tung\Job\Socialloft\test\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#12 C:\Tung\Job\Socialloft\test\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

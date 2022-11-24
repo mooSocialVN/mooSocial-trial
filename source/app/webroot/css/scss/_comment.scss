@@ -1,0 +1,332 @@
+.comment_header_title{
+  color: #5F5F5F;
+  margin: 0px 0 10px 0;
+  padding: 0 0 3px;
+  font-size: 16px;
+}
+
+.content_comment .closeComment{
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#commentForm {
+  padding-bottom: 20px;
+}
+
+#commentForm .user_avatar{
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+
+.item_comment_edit{
+  position: relative;
+}
+
+
+
+//#theaterPhotoCommentForm > .comment, #commentForm > .comment {
+//    margin-right: 40px !important;
+//}
+
+.comment-form{
+  min-height: 33px;
+  .comment-form-left{
+    float: left;
+    [dir="rtl"] & {
+      float: right;
+    }
+    .user_avatar{
+      width: 30px;
+      border-radius: 100%;
+    }
+  }
+  .comment-form-right{
+    margin-left: 40px;
+    //margin-right: 40px;
+    [dir="rtl"] & {
+      margin-left: 0;
+      margin-right: 40px;
+    }
+  }
+  .comment-form-main{
+    position: relative;
+    margin-bottom: 5px;
+    display: flex;
+    textarea{
+
+    }
+    .comment-form-area{
+      position: relative;
+      flex-grow: 1;
+    }
+    .comment-form-button{
+      flex-grow: 0;
+      margin-left: 10px;
+      [dir="rtl"] & {
+        margin-left: 0;
+        margin-right: 10px;
+      }
+      .btn-cs-main{
+        .btn-text{
+          display: none;
+        }
+      }
+    }
+  }
+  .comment-form-message{
+    margin-bottom: 5px;
+  }
+  .comment-form-attach{
+    .comment_attach_image{
+      > span{
+        display: block;
+        width: 100px;
+        height: 100px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border: 1px solid #e0e0e0;
+        background-color: #ffffff;
+        > a{
+          color: #000000;
+          float: right;
+          text-align: center;
+          display: block;
+          float: right;
+          margin: 2px;
+          .thumb-review-delete{
+            color: #000;
+            border: 1px solid #000;
+            background-color: rgba(255,255,255,0.8);
+            border-radius: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+[id*="_comment_preview_attach_"] > span{
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  border: 1px solid #ccc;
+  position: relative;
+  background-position: center;
+}
+[id*="_comment_preview_attach_"] > span > a{
+  float: right;
+}
+
+#comments .view-more,
+#theaterComments .view-more{
+  margin-top: 0;
+  margin-bottom: 7px;
+  text-align: left;
+}
+#comments .view-more a,
+#theaterComments .view-more a{
+  border: none!important;
+  box-shadow: none;
+  text-align: left;
+  font-size: 12px;
+  color: #428bca!important;
+  text-transform: none;
+  padding: 0!important;
+  margin: 0!important;
+}
+.commentBox {
+  width: 100%;
+  height: 27px;
+  box-sizing: border-box;
+  resize: none;
+  overflow:hidden;
+  padding-right: 52px;
+  [dir="rtl"] & {
+    padding-right: 12px;
+    padding-left: 52px;
+  }
+}
+
+.comment_lists{
+  .comment-item{
+    position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    //border-bottom: 1px solid #e0e0e0;
+    .comment-option{
+      display: none;
+      position: absolute;
+      top: 5px;
+      right: 0;
+      [dir="rtl"] & {
+        right: inherit;
+        left: 0;
+      }
+      .dropdown{
+        .dropdown-menu{
+          left: inherit;
+          right: 0;
+          [dir="rtl"] & {
+            left: 0;
+            right: inherit;
+          }
+        }
+      }
+    }
+    .comment-outer{
+      display: flex;
+    }
+    .comment-avatar{
+      width: 40px;
+      min-width: 40px;
+      .user_avatar{
+        width: 30px;
+        border-radius: 100%;
+      }
+    }
+    .comment-inner{
+      flex-grow: 1;
+    }
+    .comment-user-name{
+      padding-right: 20px;
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 22px;
+      [dir="rtl"] & {
+        padding-right: 0;
+        padding-left: 20px;
+      }
+    }
+    .comment-content-text{
+      word-wrap: break-word;
+      word-break: break-word;
+      padding: 3px 0;
+      font-size: 14px;
+      .moocore_tooltip_link{
+        font-weight: bold;
+      }
+    }
+    .comment-action-list{
+
+    }
+    .comment-time{
+      color: #888;
+      font-size: 14px;
+      line-height: 20px;
+      display: inline-block;
+      vertical-align: middle;
+      a{
+        color: #888;
+      }
+    }
+    .comment-action{
+      display: inline-block;
+      vertical-align: middle;
+    }
+    &:hover{
+      > .comment-option{
+        display: block;
+      }
+    }
+    .comment-conversion-seen{
+      display: flex;
+      justify-content: flex-end;
+      .user-seen-list{
+        .user-seen-item{
+          min-width: 25px;
+          min-height: 25px;
+          .user_avatar{
+            width: 25px;
+            height: 25px;
+          }
+          .btn-see-more-icon{
+            display: block;
+            font-size: 22px;
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            text-align: center;
+            //border: 1px solid #cdcdcd;
+            border-radius: 100%;
+            //color: #cdcdcd;
+          }
+        }
+      }
+    }
+  }
+}
+.comment_thumb{
+  .comment-img{
+    max-width: 100%;
+  }
+}
+.comment_reply-holder{
+  padding-left: 40px;
+  [dir="rtl"] & {
+    padding-left: 0;
+    padding-right: 40px;
+  }
+  .new_reply_comment{
+    padding-top: 10px;
+  }
+}
+
+.comment_view-all {
+  .comment_view-icon {
+    color: #333333;
+    font-size: 16px;
+    margin-right: 3px;
+  }
+  .showAllComments {
+    color: #333333;
+  }
+}
+.comment_holder{
+  .closed-comment + .comment-form-warp{
+    margin-top: 10px;
+  }
+}
+
+.comment_recent{
+  .comment-form-warp{
+    margin-bottom: 10px;
+  }
+  .comment_view-all{
+    margin-top: 10px;
+  }
+}
+.comment_chrono{
+  .comment_view-all{
+    margin-bottom: 10px;
+  }
+  .comment_parent_lists{
+    margin-bottom: 10px;
+  }
+}
+
+.comment .qq-upload-list {
+  display:none;
+}
+
+.edit-post-action{
+  text-align:right;
+  clear:both;
+  padding: 0;
+}
+
+.cmt_preview_link{
+  .removeCommentPreviewlink{
+    position: absolute;
+    right: 10px;
+    font-size: 10px;
+  }
+  .activity_item_title{
+    margin-right: 20px;
+  }
+}

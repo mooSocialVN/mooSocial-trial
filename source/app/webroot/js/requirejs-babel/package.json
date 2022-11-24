@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      "requirejs-babel@github:hipertracker/requirejs-babel",
+      "/Library/WebServer/Documents/test/react-requirejs-boilerplate"
+    ]
+  ],
+  "_from": "hipertracker/requirejs-babel",
+  "_id": "requirejs-babel@0.2.5",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/requirejs-babel",
+  "_phantomChildren": {},
+  "_requested": {
+    "hosted": {
+      "directUrl": "https://raw.githubusercontent.com/hipertracker/requirejs-babel/master/package.json",
+      "gitUrl": "git://github.com/hipertracker/requirejs-babel.git",
+      "httpsUrl": "git+https://github.com/hipertracker/requirejs-babel.git",
+      "shortcut": "github:hipertracker/requirejs-babel",
+      "ssh": "git@github.com:hipertracker/requirejs-babel.git",
+      "sshUrl": "git+ssh://git@github.com/hipertracker/requirejs-babel.git",
+      "type": "github"
+    },
+    "name": "requirejs-babel",
+    "raw": "requirejs-babel@github:hipertracker/requirejs-babel",
+    "rawSpec": "github:hipertracker/requirejs-babel",
+    "scope": null,
+    "spec": "github:hipertracker/requirejs-babel",
+    "type": "hosted"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git://github.com/hipertracker/requirejs-babel.git#e2c3b4f25a26d248d972fc3c0e8708f8f7e34475",
+  "_shasum": "1d8ef075e354063206c69030d2ecedff1622a0de",
+  "_shrinkwrap": null,
+  "_spec": "requirejs-babel@github:hipertracker/requirejs-babel",
+  "_where": "/Library/WebServer/Documents/test/react-requirejs-boilerplate",
+  "author": {
+    "email": "hipertracker@gmail.com",
+    "name": "Jaroslaw Zabiello"
+  },
+  "bugs": {
+    "url": "https://github.com/hipertracker/requirejs-babel/issues"
+  },
+  "dependencies": {},
+  "description": "An AMD loader plugin for Babel",
+  "devDependencies": {
+    "requirejs": "^2.1.20"
+  },
+  "gitHead": "e2c3b4f25a26d248d972fc3c0e8708f8f7e34475",
+  "homepage": "https://github.com/hipertracker/requirejs-babel#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "requirejs-babel",
+  "optionalDependencies": {},
+  "readme": "# Babel Plugin for RequireJS\n\n\nA [Babel](https://babeljs.io/) loader plugin for [RequireJS](http://requirejs.org).\n\nInstallation\n---\n\n```bash\nnpm install hipertracker/requirejs-babel\n```\n\n## Usage\n\n\nAdd the paths and shim to configuration:\n\n```javascript\n    paths: {\n        babel: 'vendor/requirejs-babel/browser',\n        babel_polyfill: 'vendor/requirejs-babel/polyfill.min',\n        es6: 'vendor/requirejs-babel/es6'\n    },\n    shim: {\n        babel: {\n            deps: ['babel_polyfill']\n        }\n```\n\nReference files via the `es6!` plugin name:\n\nnew ES6 syntax (better)\n```javascript\nimport MyEs6Module from 'es6!./my-es6-module'\n```\nor plain old AMD syntax:\n\n```javascript\n  define(['es6!./my-es6-module'], function(MyEs6Module) {\n    // ...\n  });\n```\n\n```html\n....\n<script src=\"./requirejs-config.js\"></script>\n<script src=\"./vendor/requirejs/require.js\" data-main=\"es6!./src/main\" ></script>\n```\n## Credits\n\n* [https://github.com/mikach/requirejs-babel](https://github.com/mikach/requirejs-babel)\n\n## Example of React & RequireJS & Babel with ES6+ \n\n* [https://github.com/hipertracker/react-requirejs-boilerplate](https://github.com/hipertracker/react-requirejs-boilerplate)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hipertracker/requirejs-babel.git"
+  },
+  "scripts": {
+    "optimize": "r.js -o demo/build.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.5"
+}

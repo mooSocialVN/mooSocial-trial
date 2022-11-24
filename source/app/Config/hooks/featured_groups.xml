@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<name>Featured Groups</name>
+	<key>featured_groups</key>
+	<version>2.0</version>
+	<description>Display a list of featured groups on side bar</description>
+	<author>mooSocial</author>
+	<website>http://www.moosocial.com</website>
+	<controller>groups</controller>
+	<action>index</action>
+	<position>groups_sidebar</position>
+</info>

@@ -1,0 +1,72 @@
+.login-popup-group{
+    position: relative;
+    .dropdown-popup-toggle{
+        display: flex;
+        align-items: center;
+        .dropdown-user-avatar{
+            display: block;
+            position: relative;
+            height: 30px;
+            width: 30px;
+            border-radius: 100%;
+            border: 1px solid #ffffff;
+          background-color: #ffffff;
+        }
+        .dropdown-user-arrow {
+            font-size: 20px;
+            color: #ffffff;
+            width: 20px;
+            height: 20px;
+            overflow: hidden;
+        }
+        .dropdown-user-box,
+        .login-no-img{
+            display: block;
+            width: 100%;
+            border-radius: 100%;
+            font-size: 0;
+        }
+    }
+    .dropdown-popup-main{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        z-index: 1000;
+        padding: 0;
+        margin: 2px 0 0;
+        background-color: #ffffff;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: 4px;
+        box-shadow: 0 6px 12px rgba(0,0,0,.175);
+        width: 375px;
+        display: none;
+        [dir="rtl"] & {
+            right: inherit;
+            left: 0;
+        }
+        &:before{
+            content: '';
+            display: block;
+            position: absolute;
+            top: -13px;
+            right: 28px;
+            width: 0;
+            border: 6px;
+            border-style: solid;
+            border-color: transparent transparent #fff transparent;
+        }
+    }
+    &.open{
+        .dropdown-popup-main{
+            display: block;
+        }
+    }
+}
+
+@media (max-width: 413px) {
+    .login-popup-group{
+        .dropdown-popup-main{
+            width: 305px;
+        }
+    }
+}

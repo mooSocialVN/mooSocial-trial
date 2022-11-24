@@ -1,0 +1,202 @@
+// Variables
+//
+// Color system
+$body-bg-color: #ececec;
+$body-text-color: #000000;
+
+$modal-fade-in-background-color: rgba(0, 0, 0, 0.78);
+
+//Header
+$header-background-color: #00477b;
+$header-border-color: rgba(224, 224, 224, 0.2);
+
+//Main menu
+$main-menu-background-color: transparent !default;
+$main-menu-background-color-hover: #1e6da6 !default;
+
+$main-menu-color: #fff !default;
+$main-menu-color-hover: #fff !default;
+
+$main-menu-icon-color: #fff !default;
+$main-menu-icon-color-hover: #fff !default;
+
+$main-menu-arrow-icon-color: #fff !default;
+$main-menu-arrow-icon-color-hover: #fff !default;
+
+$main-sub-menu-color: #fff !default;
+$main-sub-menu-color-hover: #fff !default;
+
+$main-sub-menu-icon-color: #fff !default;
+$main-sub-menu-icon-color-hover: #fff !default;
+
+$main-sub-menu-background-color: #00477b !default;
+$main-sub-menu-background-color-hover: #1e6da6 !default;
+
+//$main-sub-menu-border-color: #1e6da6 !default;
+//$main-sub-menu-border-color-hover: #1e6da6 !default;
+
+$main-menu-warp-background-color: #00477b;
+$main-menu-warp-box-shadow-color: rgba(0, 0, 0, 0.48);
+
+$main-menu-toggle-text-color: #ffffff;
+$main-menu-toggle-icon-color: #ffffff;
+$main-menu-toggle-border-color: #246392;
+
+$mobile-menu-warp-background-color: $modal-fade-in-background-color;
+$mobile-menu-content-background-color: #00477b;
+$mobile-menu-content-close-color: #ffffff;
+
+$mobile-menu-color: #ffffff;
+$mobile-menu-hover-color: #ffffff;
+
+$mobile-menu-background-color: transparent;
+$mobile-menu-background-hover-color: #013860;
+
+$mobile-menu-icon-color: #ffffff;
+$mobile-menu-icon-color-hover: #ffffff;
+
+$mobile-menu-arrow-color: #ffffff;
+$mobile-menu-arrow-back-color: #ffffff;
+$mobile-menu-arrow-back-border-color: #1e6da6;
+
+//core menu
+$core-menu-li-bg-color: #ffffff;
+$core-menu-li-text-color: #000000;
+$core-menu-li-icon-color: #000000;
+
+$core-menu-li-bg-hover-color: #f1f1f1;
+$core-menu-li-text-hover-color: #3e3e3e;
+$core-menu-li-icon-hover-color: #3e3e3e;
+
+$core-menu-li-bg-active-color: #f1f1f1;
+$core-menu-li-text-active-color: #3e3e3e;
+$core-menu-li-icon-active-color: #3e3e3e;
+
+$core-menu-sub-border-color: #cccccc;
+$core-menu-sub-li-bg-color: #ffffff;
+$core-menu-sub-li-text-color: #000000;
+$core-menu-sub-li-icon-color: #000000;
+
+$core-menu-sub-li-bg-hover-color: #f1f1f1;
+$core-menu-sub-li-text-hover-color: #3e3e3e;
+$core-menu-sub-li-icon-hover-color: #3e3e3e;
+
+$core-menu-sub-li-bg-active-color: #f1f1f1;
+$core-menu-sub-li-text-active-color: #3e3e3e;
+$core-menu-sub-li-icon-active-color: #3e3e3e;
+
+$footer-menu-li-bg-color: transparent;
+$footer-menu-li-text-color: #000000;
+$footer-menu-li-icon-color: #000000;
+
+$footer-menu-li-bg-hover-color: transparent;
+$footer-menu-li-text-hover-color: #999999;
+$footer-menu-li-icon-hover-color: #999999;
+
+$footer-menu-li-bg-active-color: transparent;
+$footer-menu-li-text-active-color: #00477b;
+$footer-menu-li-icon-active-color: #00477b;
+
+//global search
+$global-search-bg-color: #033a62;
+$global-search-border-color: #1e6da6;
+$global-search-text-color: #ffffff;
+$global-search-submit-color: #ffffff;
+$global-search-display-suggestion-bg-color: #ffffff;
+$global-search-display-suggestion-border-color: #dfdfdf;
+
+$global-search-suggestion-user-bg-hover-color: #f1f1f1;
+$global-search-li-border-color: #dfdfdf;
+$global-search-header-filter-bg-hover-color: #f1f1f1;
+$global-search-header-filter-text-color: #000000;
+$global-search-header-filter-more-text-color: #333333;
+$global-search-suggest-name-text-color: #000000;
+$global-search-suggest-more-info-text-color: #acacac;
+
+//notify group
+$notify-group-btn-group-icon-color: #ffffff;
+$notify-group-btn-group-icon-hasNotify-color: #98C1DF;
+
+$notify-group-count-bg-color: #f00000;
+$notify-group-count-text-color: #ffffff;
+$notify-group-count-border-color: #ffffff;
+
+$notify-group-notification-list-bg-color: #ffffff;
+$notify-group-notification-list-border-color: #DFDFDF;
+$notify-group-notification-unread-bg-color: rgba(0,0,0,0.1);// #F2F5F9;
+$notify-group-notification-subject-text-color: #000000;
+$notify-group-notification-message-text-color: #7f7f7f;
+$notify-group-notification-date-text-color: #999;
+
+$notify-group-notify_top-text-color: #333333;
+$notify-group-more-notify-bg-color: #f1f1f1;
+$notify-group-more-notify-text-color: #333333;
+
+$notify-group-noti-option-icon-color: #000000;
+$notify-group-noti-option-icon-unread-color: #cccccc;
+
+//box2
+$box-content-warp-border-color: #e0e0e0;
+$box-content-warp-bg-color: #ffffff;
+$box-content-warp-header-bg-color: #fafafa;
+$box-content-warp-header-text-color: #000000;
+
+//main
+$core-title-color: #000000;
+$core-like-count-color: #333333;
+$core-date-color: #888888;
+$core-item-description-color: #1c1212;
+
+@mixin transition($params) {
+    -webkit-transition: $params;
+    -moz-transition: $params;
+    -khtml-transition: $params;
+    -o-transition: $params;
+    transition: $params;
+}
+
+@mixin scale($params) {
+    -webkit-transform: scale($params);
+    -moz-transform: scale($params);
+    -khtml-transform: scale($params);
+    -o-transform: scale($params);
+    transform: scale($params);
+}
+
+@mixin box-shadow($params) {
+    -webkit-box-shadow:$params;
+    -moz-box-shadow:$params;
+    -khtml-box-shadow:$params;
+    -o-box-shadow:$params;
+    box-shadow:$params;
+}
+
+@mixin rotate($params) {
+    -webkit-transform: rotate($params);
+    -moz-transform: rotate($params);
+    -khtml-transform: rotate($params);
+    -o-transform: rotate($params);
+    transform: rotate($params);
+}
+
+@mixin opacity($opacity) {
+    -webkit-opacity:$opacity;
+    -moz-opacity:$opacity;
+    -khtml-opacity:$opacity;
+    -o-opacity:$opacity;
+    opacity:$opacity;
+}
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -khtml-border-radius: $radius;
+    -o-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin transition-header-top {
+    -webkit-transition: top 0.5s cubic-bezier(0, 1, 0.5, 1);
+    -moz-transition: top 0.5s cubic-bezier(0, 1, 0.5, 1);
+    transition: top 0.5s cubic-bezier(0, 1, 0.5, 1);
+}

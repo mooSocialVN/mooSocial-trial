@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<name>Online Users</name>
+	<key>online_users</key>
+	<version>2.0</version>
+	<description>Display a list of current online users on side bar</description>
+	<author>mooSocial</author>
+	<website>http://www.moosocial.com</website>
+	<controller></controller>
+	<action></action>
+	<position>global_sidebar</position>
+	<settings>
+		<num_online_users>
+			<label>Number of online users</label>
+			<description>Enter number of online users to display</description>
+			<type>text</type>
+			<value>12</value>
+		</num_online_users>
+	</settings>
+</info>

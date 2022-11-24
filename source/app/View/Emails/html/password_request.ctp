@@ -1,0 +1,2 @@
+<?php echo __("A request to reset password was submitted. If it's not you, please ignore this email<br />To reset your password, please click")?>
+<a href="<?php echo FULL_BASE_URL .$this->request->base;//FULL_BASE_URL . $request->base?>/users/resetpass/<?php echo urlencode($code)?>"><?php echo __('here')?></a>

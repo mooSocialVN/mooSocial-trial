@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<name>Popular Videos</name>
+	<key>popular_videos</key>
+	<version>2.0</version>
+	<description>Display a list of popular videos on side bar</description>
+	<author>mooSocial</author>
+	<website>http://www.moosocial.com</website>
+	<controller>videos</controller>
+	<action>index</action>
+	<position>videos_sidebar</position>
+	<settings>
+		<num_videos>
+			<label>Number of videos</label>
+			<description>Enter the number of videos you want to display</description>
+			<type>text</type>
+			<value>5</value>
+		</num_videos>
+	</settings>
+</info>

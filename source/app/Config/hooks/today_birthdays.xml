@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<name>Today Birthdays</name>
+	<key>today_birthdays</key>
+	<version>2.0</version>
+	<description>Display a list of users that have birthday today</description>
+	<author>mooSocial</author>
+	<website>http://www.moosocial.com</website>
+	<controller>home</controller>
+	<action>index</action>
+	<position>home_sidebar</position>
+	<settings>
+		<friend_birthdays>
+			<label>Show friends' birthdays only</label>
+			<type>checkbox</type>
+			<value>1</value>
+		</friend_birthdays>
+	</settings>
+</info>

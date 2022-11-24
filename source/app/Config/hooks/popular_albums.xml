@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<name>Popular Albums</name>
+	<key>popular_albums</key>
+	<version>2.0</version>
+	<description>Display a list of popular photo albums on side bar</description>
+	<author>mooSocial</author>
+	<website>http://www.moosocial.com</website>
+	<controller>photos</controller>
+	<action>index</action>
+	<position>photos_sidebar</position>
+	<settings>
+		<num_albums>
+			<label>Number of albums</label>
+			<description>Enter the number of albums you want to display</description>
+			<type>text</type>
+			<value>5</value>
+		</num_albums>
+	</settings>
+</info>

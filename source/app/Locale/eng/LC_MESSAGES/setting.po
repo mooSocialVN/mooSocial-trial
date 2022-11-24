@@ -1,0 +1,984 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+msgid "General"
+msgstr "General"
+
+msgid "Features"
+msgstr "Features"
+
+msgid "Security"
+msgstr "Security"
+
+msgid "Custom Blocks"
+msgstr "Custom Blocks"
+
+msgid "Integration"
+msgstr "Integration"
+
+msgid "Logo & OG Image"
+msgstr "Logo & OG Image"
+
+msgid "Mail"
+msgstr "Mail"
+
+msgid "System Mode"
+msgstr "System Mode"
+
+msgid "Billing"
+msgstr "Billing"
+
+msgid "Subscription"
+msgstr "Subscription"
+
+msgid "Cron"
+msgstr "Cron"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Topic"
+msgstr "Topic"
+
+msgid "Photo"
+msgstr "Photo"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Page"
+msgstr "Page"
+
+msgid "Event"
+msgstr "Event"
+
+msgid "Group"
+msgstr "Group"
+
+msgid "Social Integration"
+msgstr "Social Integration"
+
+msgid "Facebook Integration"
+msgstr "Facebook Integration"
+
+msgid "Google Integration"
+msgstr "Google Integration"
+
+msgid "Site Map"
+msgstr "Site Map"
+
+msgid "SEO Settings & Rules"
+msgstr "SEO Settings & Rules"
+
+msgid "Activity Feed Settings"
+msgstr "Activity Feed Settings"
+
+msgid "Storage System"
+msgstr "Storage System"
+
+msgid "Site Name"
+msgstr "Site Name"
+
+msgid "Site Email"
+msgstr "Site Email"
+
+msgid "Site Keywords"
+msgstr "Site Keywords"
+
+msgid "Site Description"
+msgstr "Site Description"
+
+msgid "Everyone"
+msgstr "Everyone"
+
+msgid "Friends & Me"
+msgstr "Friends & Me"
+
+msgid "Default Home Feed"
+msgstr "Default Home Feed"
+
+msgid "Note"
+msgstr "Note"
+
+msgid "Enable reCaptcha"
+msgstr "Enable reCaptcha"
+
+msgid "You must enter recaptcha public and private key if you<br>enable this. Click <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">this</a> for more details"
+msgstr "You must enter recaptcha public and private key if you<br>enable this. Click <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">this</a> for more details"
+
+msgid "reCaptcha Public Key"
+msgstr "reCaptcha Public Key"
+
+msgid "reCaptcha Private Key"
+msgstr "reCaptcha Private Key"
+
+msgid "Require Email Validation"
+msgstr "Require Email Validation"
+
+msgid "Homepage Guest Message"
+msgstr "Homepage Guest Message"
+
+msgid "Header Block Code"
+msgstr "Header Block Code"
+
+msgid "Footer Block Code"
+msgstr "Footer Block Code"
+
+msgid "Homepage Member Message"
+msgstr "Homepage Member Message"
+
+msgid "Allow Users To Select Theme"
+msgstr "Allow Users To Select Theme"
+
+msgid "Allow Guests To Search"
+msgstr "Allow Guests To Search"
+
+msgid "Photo theater mode"
+msgstr "Photo theater mode"
+
+msgid "Enable follow function"
+msgstr "Enable follow function"
+
+msgid "Default Theme"
+msgstr "Default Theme"
+
+msgid "Force Login"
+msgstr "Force Login"
+
+msgid "Check this to force users to login to view the site"
+msgstr "Check this to force users to login to view the site"
+
+msgid "Homepage Block Code"
+msgstr "Homepage Block Code"
+
+msgid "Ban IP Addresses"
+msgstr "Ban IP Addresses"
+
+msgid "Enter xyz.xyz.xyz.xyz to ban the exact ip address<br>Or xyz.xyz.xyz to ban ip addresses that start with xyz.xyz.xyz<br>One ip address per line"
+msgstr "Enter xyz.xyz.xyz.xyz to ban the exact ip address<br>Or xyz.xyz.xyz to ban ip addresses that start with xyz.xyz.xyz<br>One ip address per line"
+
+msgid "Ban Email Addresses"
+msgstr "Ban Email Addresses"
+
+msgid "Enter xyz@abc.com to ban the exact email address<br>Or abc@* to ban email addresses that start with abc@<br>Or *@abc.com to ban email addresses that end with @abc.com<br>One email address per line"
+msgstr "Enter xyz@abc.com to ban the exact email address<br>Or abc@* to ban email addresses that start with abc@<br>Or *@abc.com to ban email addresses that end with @abc.com<br>One email address per line"
+
+msgid "Enable Activities Feed Selection"
+msgstr "Enable Activities Feed Selection"
+
+msgid "Take Site Offline"
+msgstr "Take Site Offline"
+
+msgid "Offline Message"
+msgstr "Offline Message"
+
+msgid "Only Me"
+msgstr "Only Me"
+
+msgid "Default Profile Privacy"
+msgstr "Default Profile Privacy"
+
+msgid "Popular Items Interval"
+msgstr "Popular Items Interval"
+
+msgid "Display popular items within X days"
+msgstr "Display popular items within X days"
+
+msgid "Default Language"
+msgstr "Default Language"
+
+msgid "Disable Registration"
+msgstr "Disable Registration"
+
+msgid "Allow invite friend to join site"
+msgstr "Allow invite friend to join site"
+
+msgid "12-hour"
+msgstr "12-hour"
+
+msgid "24-hour"
+msgstr "24-hour"
+
+msgid "Time Format"
+msgstr "Time Format"
+
+msgid "Date Format"
+msgstr "Date Format"
+
+msgid "<a target=\"_blank\" href=\"http://php.net/manual/en/function.strftime.php\">Refer to PHP date function for more information about<br>date format. Click this for more details</a>"
+msgstr "<a target=\"_blank\" href=\"http://php.net/manual/en/function.strftime.php\">Refer to PHP date function for more information about<br>date format. Click this for more details</a>"
+
+msgid "Upload New Logo"
+msgstr "Upload New Logo"
+
+msgid "Upload New Og Image"
+msgstr "Upload New Og Image"
+
+msgid "Remove Admin Link"
+msgstr "Remove Admin Link"
+
+msgid "Check this box to remove Admin link from user menu"
+msgstr "Check this box to remove Admin link from user menu"
+
+msgid "Allow Users To Select Language"
+msgstr "Allow Users To Select Language"
+
+msgid "Analytics Code"
+msgstr "Analytics Code"
+
+msgid "Enter your analytics code here<br>Click <a href=\"http://www.google.com/analytics/\" target=\"_blank\">this</a> to visit Google Analytics"
+msgstr "Enter your analytics code here<br>Click <a href=\"http://www.google.com/analytics/\" target=\"_blank\">this</a> to visit Google Analytics"
+
+msgid "Registration Notification"
+msgstr "Registration Notification"
+
+msgid "Check this to enable the system to send a notification email to the site email whenever a new user signs up"
+msgstr "Check this to enable the system to send a notification email to the site email whenever a new user signs up"
+
+msgid "Hide Activities Feed From Guests"
+msgstr "Hide Activities Feed From Guests"
+
+msgid "Allow Username Change"
+msgstr "Allow Username Change"
+
+msgid "Restricted Usernames"
+msgstr "Restricted Usernames"
+
+msgid "Enter usernames that you do not want users to register with. One username per line"
+msgstr "Enter usernames that you do not want users to register with. One username per line"
+
+msgid "Enable Registration Code"
+msgstr "Enable Registration Code"
+
+msgid "Check this box to force users to enter the correct registration code defined below in order to register"
+msgstr "Check this box to force users to enter the correct registration code defined below in order to register"
+
+msgid "Registration Code"
+msgstr "Registration Code"
+
+msgid "Google Developer Key"
+msgstr "Google Developer Key"
+
+msgid "Use for youtube API and Google Map API. For more info please go to <a href=\"https://community.moosocial.com/topics/view/1337\">link</a>"
+msgstr "Use for youtube API and Google Map API. For more info please go to <a href=\"https://community.moosocial.com/topics/view/1337\">link</a>"
+
+msgid "Default Timezone"
+msgstr "Default Timezone"
+
+msgid "Enable Timezone Selection"
+msgstr "Enable Timezone Selection"
+
+msgid "If your users live in different timezones then enable this"
+msgstr "If your users live in different timezones then enable this"
+
+msgid "Require timezone"
+msgstr "Require timezone"
+
+msgid "Require Birthday"
+msgstr "Require Birthday"
+
+msgid "Show birthday field at sign up form"
+msgstr "Show birthday field at sign up form"
+
+msgid "Enable Spam Challenge"
+msgstr "Enable Spam Challenge"
+
+msgid "Check this box to force users to answer a<br>challenge question in order to register<br>Click <a href=\"/admin/spam_challenges\">here</a> to manage challenge questions/answers"
+msgstr "Check this box to force users to answer a<br>challenge question in order to register<br>Click <a href=\"/admin/spam_challenges\">here</a> to manage challenge questions/answers"
+
+msgid "Show \"Powered by\" link"
+msgstr "Show \"Powered by\" link"
+
+msgid "Allow Name Change"
+msgstr "Allow Name Change"
+
+msgid "Check this to allow users to change name"
+msgstr "Check this to allow users to change name"
+
+msgid "Registration Message"
+msgstr "Registration Message"
+
+msgid "Enable SSL Mode"
+msgstr "Enable SSL Mode"
+
+msgid "Production"
+msgstr "Production"
+
+msgid "Development 1"
+msgstr "Development 1"
+
+msgid "Development 2"
+msgstr "Development 2"
+
+msgid "Production Mode: No error messages, errors, or warnings shown. Flash messages redirect.Development Mode: 1: Errors and warnings shown, model caches refreshed, flash messages halted. 2: As in 1, but also with full debug messages and SQL output."
+msgstr "Production Mode: No error messages, errors, or warnings shown. Flash messages redirect.Development Mode: 1: Errors and warnings shown, model caches refreshed, flash messages halted. 2: As in 1, but also with full debug messages and SQL output."
+
+msgid "Notification Interval"
+msgstr "Notification Interval"
+
+msgid "Refresh notification within X seconds"
+msgstr "Refresh notification within X seconds"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Approve Users"
+msgstr "Approve Users"
+
+msgid "Enable this if you want to approve users before they can do activities on the site."
+msgstr "Enable this if you want to approve users before they can do activities on the site."
+
+msgid "Disable"
+msgstr "Disable"
+
+msgid "Enable"
+msgstr "Enable"
+
+msgid "Enable Blog Plugin"
+msgstr "Enable Blog Plugin"
+
+msgid "Trigger Access Key"
+msgstr "Trigger Access Key"
+
+msgid "Used to prevent unauthorized running of the task scheduler."
+msgstr "Used to prevent unauthorized running of the task scheduler."
+
+msgid "Concurrent Processes"
+msgstr "Concurrent Processes"
+
+msgid "The maximum number of concurrent processes running tasks that are allowed."
+msgstr "The maximum number of concurrent processes running tasks that are allowed."
+
+msgid "Tasks Run per Request"
+msgstr "Tasks Run per Request"
+
+msgid "The maximum number of tasks that are run during each request. If a task is determined to have done nothing, it may not count towards this number."
+msgstr "The maximum number of tasks that are run during each request. If a task is determined to have done nothing, it may not count towards this number."
+
+msgid "Time per Request"
+msgstr "Time per Request"
+
+msgid "The maximum time allowed per request. This number will be automatically scaled if ini_get() can read max_execution_time from php.ini."
+msgstr "The maximum time allowed per request. This number will be automatically scaled if ini_get() can read max_execution_time from php.ini."
+
+msgid "Process Timeout"
+msgstr "Process Timeout"
+
+msgid "The maximum time before a task is considered to have died. The task will then be reset and freed to execute again."
+msgstr "The maximum time before a task is considered to have died. The task will then be reset and freed to execute again."
+
+msgid "Concurrent Jobs"
+msgstr "Concurrent Jobs"
+
+msgid "The maximum number of concurrently running jobs. This setting is limited by \"Concurrent Processes\""
+msgstr "The maximum number of concurrently running jobs. This setting is limited by \"Concurrent Processes\""
+
+msgid "Javascript Enable"
+msgstr "Javascript Enable"
+
+msgid "Cron job auto call when user go to site"
+msgstr "Cron job auto call when user go to site"
+
+msgid "Item per pages"
+msgstr "Item per pages"
+
+msgid "Enable Topic Plugin"
+msgstr "Enable Topic Plugin"
+
+msgid "The number of blogs to display per page"
+msgstr "The number of blogs to display per page"
+
+msgid "Photo item per pages"
+msgstr "Photo item per pages"
+
+msgid "Album item per pages"
+msgstr "Album item per pages"
+
+msgid "Max upload size (Mb)"
+msgstr "Max upload size (Mb)"
+
+msgid "Enable Photo Plugin"
+msgstr "Enable Photo Plugin"
+
+msgid "Enable Video Plugin"
+msgstr "Enable Video Plugin"
+
+msgid "Enable Page Plugin"
+msgstr "Enable Page Plugin"
+
+msgid "Enable Event Plugin"
+msgstr "Enable Event Plugin"
+
+msgid "Enable Group Plugin"
+msgstr "Enable Group Plugin"
+
+msgid "From Name"
+msgstr "From Name"
+
+msgid "Enter the name you want the emails from the system to come from in the field below."
+msgstr "Enter the name you want the emails from the system to come from in the field below."
+
+msgid "From Address"
+msgstr "From Address"
+
+msgid "Enter the email address you want the emails from the system to come from in the field below."
+msgstr "Enter the email address you want the emails from the system to come from in the field below."
+
+msgid "Use the built-in mail() function"
+msgstr "Use the built-in mail() function"
+
+msgid "Send emails through an SMTP server"
+msgstr "Send emails through an SMTP server"
+
+msgid "Send through SMTP"
+msgstr "Send through SMTP"
+
+msgid "Emails typically get sent through the web server using the PHP mail() function. Alternatively you can have emails sent out using SMTP, usually requiring a username and password, and optionally using an external mail server."
+msgstr "Emails typically get sent through the web server using the PHP mail() function. Alternatively you can have emails sent out using SMTP, usually requiring a username and password, and optionally using an external mail server."
+
+msgid "SMTP Host"
+msgstr "SMTP Host"
+
+msgid "In some cases, you might need to include ssl:// in the hostname"
+msgstr "In some cases, you might need to include ssl:// in the hostname"
+
+msgid "SMTP Username"
+msgstr "SMTP Username"
+
+msgid "SMTP Password"
+msgstr "SMTP Password"
+
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+msgid "Default: 25. Also commonly on port 465 (SMTP over SSL) or port 587."
+msgstr "Default: 25. Also commonly on port 465 (SMTP over SSL) or port 587."
+
+msgid "Yes, enable email queue"
+msgstr "Yes, enable email queue"
+
+msgid "No, always send emails immediately"
+msgstr "No, always send emails immediately"
+
+msgid "Email Queue"
+msgstr "Email Queue"
+
+msgid "Utilizing an email queue, you can allow your website to throttle the emails being sent out to prevent overloading the mail server."
+msgstr "Utilizing an email queue, you can allow your website to throttle the emails being sent out to prevent overloading the mail server."
+
+msgid "None"
+msgstr "None"
+
+msgid "TLS"
+msgstr "TLS"
+
+msgid "SSL"
+msgstr "SSL"
+
+msgid "Use SSL or TLS?"
+msgstr "Use SSL or TLS?"
+
+msgid "Mail Count"
+msgstr "Mail Count"
+
+msgid "The number of emails to send out each time the Background Mailer task is run."
+msgstr "The number of emails to send out each time the Background Mailer task is run."
+
+msgid "Facebook App Api"
+msgstr "Facebook App Api"
+
+msgid "Facebook App Secret"
+msgstr "Facebook App Secret"
+
+msgid "Scope"
+msgstr "Scope"
+
+msgid "Return Url"
+msgstr "Return Url"
+
+msgid "5.0.0"
+msgstr "5.0.0"
+
+msgid "3.2.3"
+msgstr "3.2.3"
+
+msgid "SDK version"
+msgstr "SDK version"
+
+msgid "You must enter FB application ID and secret if you enable this"
+msgstr "You must enter FB application ID and secret if you enable this"
+
+msgid "Google App Api"
+msgstr "Google App Api"
+
+msgid "Google Client secret"
+msgstr "Google Client secret"
+
+msgid "You must enter Google application ID and secret if you enable this"
+msgstr "You must enter Google application ID and secret if you enable this"
+
+msgid "Allow Profile Picture upload during SignUp"
+msgstr "Allow Profile Picture upload during SignUp"
+
+msgid "Allow and require Profile Picture upload during SignUp"
+msgstr "Allow and require Profile Picture upload during SignUp"
+
+msgid "Auto add friend with"
+msgstr "Auto add friend with"
+
+msgid "Auto Load More"
+msgstr "Auto Load More"
+
+msgid "Enable discount coupon"
+msgstr "Enable discount coupon"
+
+msgid "if this option is enable, you can create discount coupon and send it to your members to use when paying for paid products or services."
+msgstr "if this option is enable, you can create discount coupon and send it to your members to use when paying for paid products or services."
+
+msgid "Show birthday on profile popup"
+msgstr "Show birthday on profile popup"
+
+msgid "Show gender on profile popup"
+msgstr "Show gender on profile popup"
+
+msgid "Show joined since on profile popup"
+msgstr "Show joined since on profile popup"
+
+msgid "Show username field at sign up form"
+msgstr "Show username field at sign up form"
+
+msgid "Require username"
+msgstr "Require username"
+
+msgid "Show about field at sign up form"
+msgstr "Show about field at sign up form"
+
+msgid "Require about"
+msgstr "Require about"
+
+msgid "Send email and notification to users if they have not read private message in (minutes)"
+msgstr "Send email and notification to users if they have not read private message in (minutes)"
+
+msgid "Enter 0 to disable this"
+msgstr "Enter 0 to disable this"
+
+msgid "Required JS timeout (seconds)"
+msgstr "Required JS timeout (seconds)"
+
+msgid "This setting is for developers, please do not change"
+msgstr "This setting is for developers, please do not change"
+
+msgid "Enable Blog Hashtag"
+msgstr "Enable Blog Hashtag"
+
+msgid "Enable Topic Hashtag"
+msgstr "Enable Topic Hashtag"
+
+msgid "Enable Photo Hashtag"
+msgstr "Enable Photo Hashtag"
+
+msgid "Enable Video Hashtag"
+msgstr "Enable Video Hashtag"
+
+msgid "Enable Event Hashtag"
+msgstr "Enable Event Hashtag"
+
+msgid "Enable Group Hashtag"
+msgstr "Enable Group Hashtag"
+
+msgid "Notification for group's activities"
+msgstr "Notification for group's activities"
+
+msgid "Enable Subscription Packages"
+msgstr "Enable Subscription Packages"
+
+msgid "Select plan basic theme"
+msgstr "Select plan basic theme"
+
+msgid "Select plan compare table theme"
+msgstr "Select plan compare table theme"
+
+msgid "Select theme"
+msgstr "Select theme"
+
+msgid "Select Theme Subscription Packages"
+msgstr "Select Theme Subscription Packages"
+
+msgid "Enable Cookies"
+msgstr "Enable Cookies"
+
+msgid "You must enter deny url if you<br>enable this."
+msgstr "You must enter deny url if you<br>enable this."
+
+msgid "Deny Url"
+msgstr "Deny Url"
+
+msgid "Please include protocol http:// or https://"
+msgstr "Please include protocol http:// or https://"
+
+msgid "Hide dislike"
+msgstr "Hide dislike"
+
+msgid "Allow sending message to non-friend"
+msgstr "Allow sending message to non-friend"
+
+msgid "Check if users are allowed to send message to non-friend. Individual users can set option whether or not to only receive message from friend in profile setting. Otherwise, If unchecked, users can send message to friends only."
+msgstr "Check if users are allowed to send message to non-friend. Individual users can set option whether or not to only receive message from friend in profile setting. Otherwise, If unchecked, users can send message to friends only."
+
+msgid "Recent comment"
+msgstr "Recent comment"
+
+msgid "Chronological"
+msgstr "Chronological"
+
+msgid "Comment sort style"
+msgstr "Comment sort style"
+
+msgid "Recent comment : New comments go to the top. Chronological : All comments with newest comments at the bottom."
+msgstr "Recent comment : New comments go to the top. Chronological : All comments with newest comments at the bottom."
+
+msgid "Require gender"
+msgstr "Require gender"
+
+msgid "Show gender field at sign up form"
+msgstr "Show gender field at sign up form"
+
+msgid "Enable \"Unspecified\" Gender"
+msgstr "Enable \"Unspecified\" Gender"
+
+msgid "Members will be able to select \"Unspecified\" as their gender during signup or edit their profile"
+msgstr "Members will be able to select \"Unspecified\" as their gender during signup or edit their profile"
+
+msgid "Enable Profile pop-up"
+msgstr "Enable Profile pop-up"
+
+msgid "Min age Restriction"
+msgstr "Min age Restriction"
+
+msgid "Min age to be able to create an account. Enter \"0\" to disable this Restriction."
+msgstr "Min age to be able to create an account. Enter \"0\" to disable this Restriction."
+
+msgid "Max age Restriction"
+msgstr "Max age Restriction"
+
+msgid "Max age to be able to create an account. Enter \"0\" to disable this Restriction."
+msgstr "Max age to be able to create an account. Enter \"0\" to disable this Restriction."
+
+msgid "Auto disable accounts that do not match above min age restriction or has reached max age restriction"
+msgstr "Auto disable accounts that do not match above min age restriction or has reached max age restriction"
+
+msgid "If this option is checked, accounts that do not match with new min age restriction or has reached new max age restriction changed by you above will be auto disabled once they sign in again."
+msgstr "If this option is checked, accounts that do not match with new min age restriction or has reached new max age restriction changed by you above will be auto disabled once they sign in again."
+
+msgid "Enable category toggle"
+msgstr "Enable category toggle"
+
+msgid "Site domain"
+msgstr "Site domain"
+
+msgid "This is your current registered domain. If you changed to new domain you need to update this information"
+msgstr "This is your current registered domain. If you changed to new domain you need to update this information"
+
+msgid "Display profile type on the main user profile tab"
+msgstr "Display profile type on the main user profile tab"
+
+msgid "By pass force login for user"
+msgstr "By pass force login for user"
+
+msgid "Allow Users To Change profile type"
+msgstr "Allow Users To Change profile type"
+
+msgid "Access Key ID"
+msgstr "Access Key ID"
+
+msgid "If you don't have access keys, you can create them by using the AWS Management Console."
+msgstr "If you don't have access keys, you can create them by using the AWS Management Console."
+
+msgid "Secret Access Key"
+msgstr "Secret Access Key"
+
+msgid "Bucket Name"
+msgstr "Bucket Name"
+
+msgid "If the bucket does not exist, we will attempt to create it. Please note the following restrictions on bucket names: must start and end with a number or letter,must only contain lowercase letters, numbers, and dashes [a-z0-9-],must be between 3 and 255 characters long"
+msgstr "If the bucket does not exist, we will attempt to create it. Please note the following restrictions on bucket names: must start and end with a number or letter,must only contain lowercase letters, numbers, and dashes [a-z0-9-],must be between 3 and 255 characters long"
+
+msgid "US East (N. Virginia)"
+msgstr "US East (N. Virginia)"
+
+msgid "US East (Ohio)"
+msgstr "US East (Ohio)"
+
+msgid "US West (N. California)"
+msgstr "US West (N. California)"
+
+msgid "US West (Oregon)"
+msgstr "US West (Oregon)"
+
+msgid "Asia Pacific (Mumbai)"
+msgstr "Asia Pacific (Mumbai)"
+
+msgid "Asia Pacific (Seoul)"
+msgstr "Asia Pacific (Seoul)"
+
+msgid "Asia Pacific (Singapore)"
+msgstr "Asia Pacific (Singapore)"
+
+msgid "Asia Pacific (Sydney)"
+msgstr "Asia Pacific (Sydney)"
+
+msgid "Asia Pacific (Tokyo)"
+msgstr "Asia Pacific (Tokyo)"
+
+msgid "EU (Frankfurt)"
+msgstr "EU (Frankfurt)"
+
+msgid "EU (Ireland)"
+msgstr "EU (Ireland)"
+
+msgid "South America (São Paulo)"
+msgstr "South America (São Paulo)"
+
+msgid "Region"
+msgstr "Region"
+
+msgid "The region in which your bucket resides . Be cafeful to specify this accurtely,as you are likely to see strange or broken behavior if the region is set wrong."
+msgstr "The region in which your bucket resides . Be cafeful to specify this accurtely,as you are likely to see strange or broken behavior if the region is set wrong."
+
+msgid "Use a CNAME"
+msgstr "Use a CNAME"
+
+msgid "Serve files from a cusom domain by using an appropriately named bucket, e.g. mybucket.mydomain.com"
+msgstr "Serve files from a cusom domain by using an appropriately named bucket, e.g. mybucket.mydomain.com"
+
+msgid "Always serve files from Amazon S3 via HTTPS"
+msgstr "Always serve files from Amazon S3 via HTTPS"
+
+msgid "Forces S3 File System to always generate HTTPS URLs for files in your bucket, e.g. 'https://mybucket.s3.amazonaws.com/file.jpg'. Without this setting enabled,URLs for your files will use the same scheme as the page they are served from."
+msgstr "Forces S3 File System to always generate HTTPS URLs for files in your bucket, e.g. 'https://mybucket.s3.amazonaws.com/file.jpg'. Without this setting enabled,URLs for your files will use the same scheme as the page they are served from."
+
+msgid "Current Storage"
+msgstr "Current Storage"
+
+msgid "Customizing Amazon S3 URLs with CNAMEs"
+msgstr "Customizing Amazon S3 URLs with CNAMEs"
+
+msgid "Depending on your needs, you might not want s3.amazonaws.com to appear on your website or service. For example, if you host your website images on Amazon S3, you might prefer http://images.moosite.net/ instead of http://s3.amazonaws.com/imgages.For more information , see http://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html"
+msgstr "Depending on your needs, you might not want s3.amazonaws.com to appear on your website or service. For example, if you host your website images on Amazon S3, you might prefer http://images.moosite.net/ instead of http://s3.amazonaws.com/imgages.For more information , see http://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html"
+
+msgid "Do not rewrite CSS/JS file paths"
+msgstr "Do not rewrite CSS/JS file paths"
+
+msgid "If this box is checked, the CSS/JS file paths will not be replaced on the page with their CDN path. Notice that the CDN path is only to be used in Production mode."
+msgstr "If this box is checked, the CSS/JS file paths will not be replaced on the page with their CDN path. Notice that the CDN path is only to be used in Production mode."
+
+msgid "Enable CloudFront"
+msgstr "Enable CloudFront"
+
+msgid "CDN Mapping"
+msgstr "CDN Mapping"
+
+msgid "Be sure to add the protocol in front of the domain name. For example, http://my.cloudfrontcdndomain.net will work but my.cloudfrontcdndomain.net may cause problems. Be sure to use HTTPS."
+msgstr "Be sure to add the protocol in front of the domain name. For example, http://my.cloudfrontcdndomain.net will work but my.cloudfrontcdndomain.net may cause problems. Be sure to use HTTPS."
+
+msgid "Enable CDN"
+msgstr "Enable CDN"
+
+msgid "Be sure to add the protocol in front of the domain name. For example, http://my.cloudflare.com will work but my.cloudflare.com may cause problems. Be sure to use HTTPS."
+msgstr "Be sure to add the protocol in front of the domain name. For example, http://my.cloudflare.com will work but my.cloudflare.com may cause problems. Be sure to use HTTPS."
+
+msgid "Delete image when it is added to Amazon S3"
+msgstr "Delete image when it is added to Amazon S3"
+
+msgid "By pass force login"
+msgstr "By pass force login"
+
+msgid "Friend limitation is 5000 so that system will auto add friends until it reached this limitation. You can add up to 20 members here."
+msgstr "Friend limitation is 5000 so that system will auto add friends until it reached this limitation. You can add up to 20 members here."
+
+msgid "Default Cover & Avatar"
+msgstr ""
+
+msgid "Date Format for status update"
+msgstr ""
+
+msgid "<a target=\"_blank\" href=\"https://secure.php.net/manual/en/function.strftime.php\">date time format for posts at newsfeed and date time posted of an item inside a plugin</a>"
+msgstr ""
+
+msgid "<a target=\"_blank\" href=\"https://secure.php.net/manual/en/function.strftime.php\">date format for other places inside your site Ex: 20/02/2018, Nov, 20, 2018...</a>"
+msgstr ""
+
+msgid "Date Time Format "
+msgstr ""
+
+msgid "<a target=\"_blank\" href=\"https://secure.php.net/manual/en/function.strftime.php\">date time format for other places inside your site Ex: 20/02/2018 10 AM, Nov, 20, 2018 3 PM</a>"
+msgstr ""
+
+msgid "Apply for web and Android"
+msgstr ""
+
+msgid "Apply for web and apps"
+msgstr ""
+
+msgid "Show all mooSocial branding"
+msgstr ""
+
+msgid "Hide mooSocial version"
+msgstr ""
+
+msgid "Show about at people search"
+msgstr ""
+
+msgid "Home page after logged in"
+msgstr ""
+
+msgid "Summary email will send to members who last logged around - day"
+msgstr ""
+
+msgid "Link version"
+msgstr ""
+
+msgid "Members will be able to select \"Unspecified\" as their gender during signup or edit their profile. Apply for web and Android"
+msgstr ""
+
+msgid "Canada (Central)"
+msgstr ""
+
+msgid "China (Beijing)"
+msgstr ""
+
+msgid "China (Ningxia)"
+msgstr ""
+
+msgid "EU (London)"
+msgstr ""
+
+msgid "EU (Paris)"
+msgstr ""
+
+msgid "AWS GovCloud (US-East)"
+msgstr ""
+
+msgid "AWS GovCloud (US)"
+msgstr ""
+
+msgid "Recent reply"
+msgstr ""
+
+msgid "Reply sort style"
+msgstr ""
+
+msgid "Recent reply : New replys go to the top. Chronological : All replys with newest replys at the bottom."
+msgstr ""
+
+msgid "Upload New Cover Photo for desktop"
+msgstr ""
+
+msgid "Upload New Male Avatar"
+msgstr ""
+
+msgid "Upload New Female Avatar"
+msgstr ""
+
+msgid "Upload New Unspecified gender Avatar"
+msgstr ""
+
+msgid "Allow Profile Address Change"
+msgstr ""
+
+msgid "Show profile address field at sign up form"
+msgstr ""
+
+msgid "Require profile address"
+msgstr ""
+
+msgid "Can send private message"
+msgstr ""
+
+msgid "Restricted Profile Address"
+msgstr ""
+
+msgid "Gmap"
+msgstr ""
+
+msgid "OpenStreetMap"
+msgstr ""
+
+msgid "Default map"
+msgstr ""
+
+msgid "Enable youtube api key"
+msgstr ""
+
+msgid "<a target=\"_blank\" href=\"https://community.moosocial.com/topics/view/1337/how-to-create-google-developer-key\">if you enable this option, you need to configure api key follow the instruction here https://community.moosocial.com/topics/view/1337/how-to-create-google-developer-key</a>"
+msgstr ""
+
+msgid "Upload New Logo Dark Mode"
+msgstr ""
+
+msgid "Google API key (user side)"
+msgstr ""
+
+msgid "Show left panel menu at home page"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Hide plugin list from admin home page"
+msgstr ""
+
+msgid "Google API key (server side)"
+msgstr ""
+
+msgid "For more info please go to <a href=\"https://community.moosocial.com/topics/view/1337\">link</a>"
+msgstr ""
+
+msgid "Logo & OG Image & Favicon"
+msgstr ""
+
+msgid "Upload New Favicon Image"
+msgstr ""
+
+msgid "Remove Profile Picture & names from the home/landing page"
+msgstr ""
+
+msgid "Enter your analytics html code here<br>Click <a href=\"http://www.google.com/analytics/\" target=\"_blank\">this</a> to visit Google Analytics"
+msgstr ""
+
+msgid "Enable better password policies"
+msgstr ""
+
+msgid "If this is enable, Password should be at least 6 characters in length and should include at least one upper case letter, one number, and one special character"
+msgstr ""
+
+msgid "Remove Profile Picture & names from the landing page"
+msgstr ""
+
+msgid "Show profile type in info tab of member profile"
+msgstr ""
+
+msgid "Notification for event's activities"
+msgstr ""
+
+msgid "Admin Prefix"
+msgstr ""
+
+msgid "Hide \"Delete my account\" action from edit profile page"
+msgstr ""
+
+msgid "Home feed only loads activities that were created/updated (days) ago"
+msgstr ""

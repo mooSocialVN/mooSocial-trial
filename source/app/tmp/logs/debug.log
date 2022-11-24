@@ -1,0 +1,45 @@
+2017-12-19 03:43:30 Debug: Notice (8): Use of undefined constant self - assumed 'self' in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Minify::_combineMinify() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 284
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Debug: Notice (8): Use of undefined constant self - assumed 'self' in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Minify::_combineMinify() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 284
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+
+2017-12-19 03:43:30 Debug: Notice (8): Use of undefined constant self - assumed 'self' in [E:\wamp\www\internal\moo-app-optimized\app\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543]
+Trace:
+ErrorHandler::handleError() - CORE\Cake\Error\ErrorHandler.php, line 230
+Minify::_combineMinify() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 543
+Minify::serve() - APP\Plugin\Minify\Vendor\minify\lib\Minify.php, line 284
+include - APP\Plugin\Minify\Vendor\minify\index.php, line 64
+App::_loadVendor() - CORE\Cake\Core\App.php, line 763
+App::import() - CORE\Cake\Core\App.php, line 651
+MinifyController::index() - APP\Plugin\Minify\Controller\MinifyController.php, line 34
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 491
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 167
+[main] - APP\webroot\index.php, line 80
+

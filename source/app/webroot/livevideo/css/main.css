@@ -1,0 +1,62 @@
+@media (min-width: 992px){
+    body.default-body.page_has_cookies{
+        padding-top:0px;
+    }
+
+    body.default-body{
+        padding-top: 0px;
+    }
+}
+
+@media (max-width:767px) {
+    body.default-body.modal-open.modal-iphone {
+        position: fixed;
+        overflow: hidden;
+    }
+}
+
+
+body{
+        cursor: pointer;
+        padding-bottom: 0px;
+        padding-top:0px;
+        border:none;
+ }
+
+.full_content{
+    background-color: transparent;
+}
+
+#commentForm{
+    display: none;
+}
+#ScrollToTop{
+    display: none;
+}
+
+.user_avatar_large{
+    vertical-align: middle;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.feed-time , .comment-option{
+    display: none;
+}
+#comments .comment .date{
+    display:none;
+}
+a, span.main_comment{
+    color:#ffffff;
+}
+
+.comment_wrapper > li {
+    border:none;
+}
+
+.comment_message{
+    padding: 10px;
+    border-radius:15px;
+    background-color: rgba(255,255,255,0.5);
+    display: inline-block;
+}

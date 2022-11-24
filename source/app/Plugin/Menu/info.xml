@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+                            <info>
+                                <name>Menu</name>
+                                <key>Menu</key>
+                                <version>1.0</version>
+                                <description>Menu plugin</description>
+                                <author>mooSocial</author>
+                                <website>https://www.moosocial.com/</website>
+                                <menu>mooSocial</menu>
+                                <url></url>
+                                <icon_class></icon_class>
+                                <bootstrap>1</bootstrap>
+                                <routes>1</routes>
+                            </info>

@@ -1,0 +1,96 @@
+.stt-action-item.livevideo_feed-button .stt-action-btn .stt-action-icon{
+    /*color: #ff0000;*/
+}
+.btn-header_title.btn-livevideo_golive{
+    background-color: #FF4E58;
+    color: #ffffff;
+    border-color: #FF4E58;
+}
+.livevideo-listitem_live{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: block;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.livevideo-listitem_duration{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 3px 10px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+.video-feed-body .thumb_video .livevideo-time{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+    font-size: 14px;
+    padding: 3px 10px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    border-top-left-radius: 5px;
+}
+.thumb_video .livevideo-badge-live{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: inline-block;
+    font-size:14px;
+    background-color: #f00;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 10px;
+}
+.video-feed-body .video-feed-content.video-feed-livevideo{
+
+}
+@media (min-width: 1280px) {
+    #center.col-md-12 .core-lists.grid-view > .core-list-item {
+        width: 25%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #center.col-md-12 .livevideo-detail-like .box_liked_user .box-user-list .box-user-item{
+        width: 9%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #center.col-md-12 .livevideo-detail-like .box_liked_user .box-user-list .box-user-item{
+        width: 9%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #center.col-md-12 .livevideo-detail-like .box_liked_user .box-user-list .box-user-item{
+        width: 8%;
+    }
+}
+@media (min-width: 414px) and (max-width: 567px) {
+    #center.col-md-12 .livevideo-detail-like .box_liked_user .box-user-list .box-user-item{
+        width: 12.5%;
+    }
+}
+@media (max-width: 374px) {
+    #center.col-md-12 .livevideo-detail-like .box_liked_user .box-user-list .box-user-item{
+        width: 16.6666666%;
+    }
+}

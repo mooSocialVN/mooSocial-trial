@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<info>
+	<name>Friend Suggestions</name>
+	<key>friend_suggestions</key>
+	<version>2.0</version>
+	<description>Display a list of friend suggestions on side bar</description>
+	<author>mooSocial</author>
+	<website>http://www.moosocial.com</website>
+	<controller></controller>
+	<action></action>
+	<position>global_sidebar</position>
+	<settings>
+		<num_friend_suggestions>
+			<label>Number of suggestions</label>
+			<type>text</type>
+			<value>2</value>
+		</num_friend_suggestions>
+	</settings>
+</info>
